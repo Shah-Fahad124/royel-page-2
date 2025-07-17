@@ -1,0 +1,1778 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Metas -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="keywords" content="HTML5 Template archin Multi-Purpose themeforest">
+    <meta name="description" content="archin - Multi-Purpose HTML5 Template">
+    <meta name="author" content="">
+
+    <!-- Title  -->
+    <title>nip</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="common/assets/img/fav2.png" title="Favicon" sizes="16x16">
+
+    <!-- bootstrap 5 -->
+    <link rel="stylesheet" href="common/assets/css/lib/bootstrap.min.css">
+
+    <!-- font family -->
+    <!-- Font Fallbacks -->
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="style.css">
+    <!-- fontawesome icons  -->
+    <link rel="stylesheet" href="common/assets/css/lib/all.min.css">
+    <!-- line-awesome icons  -->
+    <link rel="stylesheet" href="common/assets/css/lib/line-awesome.css">
+    <!-- ionicons icons  -->
+    <link rel="stylesheet" href="common/assets/css/lib/ionicons.css">
+    <!-- animate css  -->
+    <link rel="stylesheet" href="common/assets/css/lib/animate.css">
+    <!-- fancybox popup  -->
+    <link rel="stylesheet" href="common/assets/css/lib/jquery.fancybox.css">
+    <!-- lity popup  -->
+    <link rel="stylesheet" href="common/assets/css/lib/lity.css">
+    <!-- swiper slider  -->
+    <link rel="stylesheet" href="common/assets/css/lib/swiper8.min.css">
+
+    <!-- common style -->
+    <link rel="stylesheet" href="common/assets/css/common_style.css">
+
+    <!-- home style -->
+    <link rel="stylesheet" href="assets/style.css">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        primaryT: '#0E1319',
+                        secondaryT: '#9E9E9E',   // Silver/gray
+                        darkT: '#505050',        // Very dark blue
+                        lightT: '#D3D3D3'        // Light gray/white
+                    },
+                    fontFamily: {
+                        heading: ['Agatho', 'Cormorant Garamond', 'serif'],
+                        subheading: ['"Playfair Display"', 'serif'],
+                        body: ['Gilroy', 'Poppins', 'sans-serif']
+                    }
+                }
+            }
+        }
+    </script>
+    <style>
+        @media (max-width: 768px) {
+            .grid-cols-1.md\:grid-cols-2.lg\:grid-cols-4>div {
+                border-right: none !important;
+                border-bottom: 1px solid #e5e7eb;
+            }
+
+            .grid-cols-1.md\:grid-cols-2.lg\:grid-cols-4>div:last-child {
+                border-bottom: none !important;
+            }
+        }
+
+        @media (min-width: 768px) and (max-width: 1023px) {
+            .grid-cols-1.md\:grid-cols-2.lg\:grid-cols-4>div:nth-child(odd) {
+                border-right: 1px solid #e5e7eb !important;
+            }
+
+            .grid-cols-1.md\:grid-cols-2.lg\:grid-cols-4>div:nth-child(even) {
+                border-right: none !important;
+            }
+
+            .grid-cols-1.md\:grid-cols-2.lg\:grid-cols-4>div:nth-child(n+3) {
+                border-bottom: none !important;
+            }
+        }
+    </style>
+
+</head>
+
+<body class="font-body bg-white">
+
+    <div id="">
+
+        <!--  Start navbar  -->
+        <header class="fixed top-0 z-50 w-full" style="display: fixed;top:0;">
+            <nav id="navbar"
+                class="container-fluid mx-auto px-4 sm:px-6 pt-3 sm:pt-4 flex items-center bg-transparent transition-all duration-300">
+                <div class="hidden lg:flex space-x-6 xl:space-x-8 text-white mx-auto pt-4 font-body">
+                    <!-- Desktop Navigation Items -->
+                    <a href="index.html"
+                        class="hover:text-secondaryT transition-colors font-medium text-sm xl:text-base">Home</a>
+                    <a href="vip-services.html"
+                        class="hover:text-secondaryT transition-colors font-medium text-sm xl:text-base">Properties</a>
+                    <a href="#"
+                        class="hover:text-secondaryT transition-colors font-medium text-sm xl:text-base">Projects</a>
+                    <a href="#"
+                        class="sm:w-14 sm:h-14 md:w-[7rem] md:h-[7rem] flex items-center justify-center mt-[-30px]">
+                        <img src="./assets/images/NIP WHITE LOGO PNG.png" alt="logo" class="w-full h-full">
+                    </a>
+
+                    <!-- Desktop Dropdown -->
+                    <div class="relative group">
+                        <button
+                            class="hover:text-secondaryT transition-colors font-medium text-sm xl:text-base flex items-center">
+                            NIP Approach
+                            <svg class="w-4 h-4 ml-1" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                    d="M19 9l-7 7-7-7" />
+                            </svg>
+                        </button>
+
+                        <!-- Desktop Dropdown Content -->
+                        <div
+                            class="absolute left-1/2 transform -translate-x-1/2 mt-2 w-[40rem] bg-white rounded-xl shadow-2xl py-6 px-8 z-50 hidden group-hover:grid grid-cols-2 gap-8">
+                            <!-- Premium Services Column -->
+                            <div>
+                                <h3
+                                    class="text-base font-semibold mb-4 pb-2 border-b border-lightT font-heading text-primaryT">
+                                    Premium
+                                    Services</h3>
+                                <ul class="space-y-2 text-primaryT font-body">
+                                    <!-- Smart Home Personalization -->
+                                    <li class="hover:text-secondary cursor-pointer">
+                                        <a href="premium-services.html" class="text-primaryT">smart home
+                                            Personalization</a>
+                                    </li>
+
+                                    <!-- Concierge Relocation Service -->
+                                    <li class="hover:text-secondary cursor-pointer">
+                                        <a href="" class="text-primaryT">Concierge Relocation Service</a>
+                                    </li>
+
+                                    <!-- Property Valuation -->
+                                    <li class="hover:text-secondary cursor-pointer">
+                                        <span class="text-primaryT">Property Valuation</span>
+                                    </li>
+
+                                    <!-- Luxury Interior Design -->
+                                    <li class="hover:text-secondary cursor-pointer">
+                                        <span class="text-primaryT">Luxury Interior Design Consultant</span>
+                                    </li>
+
+                                    <!-- Developer Pre-Releases -->
+                                    <li class="hover:text-secondary cursor-pointer">
+                                        <span class="text-primaryT">Exclusive Access to Developer Pre-Releases</span>
+                                    </li>
+                                </ul>
+                            </div>
+
+                            <!-- VIP Services Column -->
+                            <div>
+                                <h3
+                                    class="text-base font-semibold mb-4 pb-2 border-b border-lightT font-heading text-primaryT">
+                                    VIP
+                                    Services</h3>
+                                <ul class="space-y-2 text-primaryT font-body">
+                                    <!-- Lifestyle Management -->
+                                    <li class="hover:text-secondary cursor-pointer">
+                                        <a href="vip-services.html#lifestyle" class="text-primaryT">Lifestyle Management
+                                            Concierge</a>
+                                    </li>
+
+                                    <!-- Private Investment Advisory -->
+                                    <li class="hover:text-secondary cursor-pointer">
+                                        <a href="vip-services.html#privateinvestment" class="text-primaryT">Private
+                                            Investment Advisory</a>
+                                    </li>
+
+                                    <!-- Jet & Yacht Club -->
+                                    <li class="hover:text-secondary cursor-pointer">
+                                        <a href="vip-services.html#jet&clubmembership" class="text-primaryT">Jet & Yacht
+                                            Club Membership Access</a>
+                                    </li>
+
+                                    <!-- Legacy Circle Retreat -->
+                                    <li class="hover:text-secondary cursor-pointer">
+                                        <a href="vip-services.html#legacycircle" class="text-primaryT">Annual Invitation
+                                            to "Legacy Circle" Retreat</a>
+                                    </li>
+
+                                    <!-- Golden Visa -->
+                                    <li class="hover:text-secondary cursor-pointer">
+                                        <a href="vip-services.html#goldenvisa" class="text-primaryT">Golden Visa</a>
+                                    </li>
+
+                                    <!-- Mortgage Guidance -->
+                                    <li class="hover:text-secondary cursor-pointer">
+                                        <a href="vip-services.html#guidance" class="text-primaryT"> Mortgage
+                                            Guidance</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <a href="premium-services.html"
+                        class="hover:text-secondaryT transition-colors font-medium text-sm xl:text-base">About Us</a>
+                    <a href="contact-us.html"
+                        class="hover:text-secondaryT transition-colors font-medium text-sm xl:text-base">Contact Us</a>
+                </div>
+
+                <!-- Mobile Menu Button -->
+                <button id="mobile-menu-button" class="lg:hidden text-white focus:outline-none p-2">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                            d="M4 6h16M4 12h16M4 18h16" />
+                    </svg>
+                </button>
+            </nav>
+
+            <!-- Mobile Menu -->
+            <div id="mobile-menu"
+                class="lg:hidden hidden bg-primaryT bg-opacity-90 text-white px-4 sm:px-6 py-4 space-y-4 fixed top-16 sm:top-20 left-0 right-0 z-40">
+                <a href="index.html"
+                    class="block font-medium hover:text-secondaryT py-2 text-primaryT font-heading">Home</a>
+                <a href="vip-services.html"
+                    class="block font-medium hover:text-secondaryT py-2 text-primaryT font-heading">Properties</a>
+                <a href="#" class="block font-medium hover:text-secondaryT py-2 text-primaryT font-heading">Projects</a>
+
+                <!-- Mobile Dropdown Trigger -->
+                <div>
+                    <button id="mobile-nip-approach"
+                        class="w-full flex justify-between items-center font-medium hover:text-secondaryT py-2">
+                        NIP Approach
+                        <svg id="mobile-nip-arrow" class="w-4 h-4 transform transition-transform duration-200"
+                            fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+                        </svg>
+                    </button>
+
+                    <!-- Mobile Dropdown Content -->
+                    <div id="mobile-nip-dropdown" class="hidden pl-4 space-y-2 mt-2">
+                        <!-- Premium Baricons Section -->
+                        <div class="space-y-2 border-l border-gray-600 pl-3 py-1">
+                            <h3 class="text-sm font-semibold font-heading text-primaryT">Premium Baricons</h3>
+                            <ul class="space-y-1">
+                                <li>
+                                    <button class="flex justify-between items-center w-full text-left">
+                                        <span>Smart Home Personalization</span>
+                                        <svg class="w-3 h-3 transform transition-transform duration-200" fill="none"
+                                            stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M19 9l-7 7-7-7" />
+                                        </svg>
+                                    </button>
+                                    <ul class="hidden pl-3 mt-1 space-y-1 border-l border-gray-600">
+                                        <li>
+                                            <button class="flex justify-between items-center w-full text-left">
+                                                <span>Corelange Relevation Service</span>
+                                                <svg class="w-3 h-3 transform transition-transform duration-200"
+                                                    fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                                    <path stroke-linecap="round" stroke-linejoin="round"
+                                                        stroke-width="2" d="M19 9l-7 7-7-7" />
+                                                </svg>
+                                            </button>
+                                            <ul class="hidden pl-3 mt-1 space-y-1 border-l border-gray-600">
+                                                <li><a href="#"
+                                                        class="block py-1 text-xs text-gray-400 hover:text-white">Property
+                                                        valuation</a></li>
+                                                <li><a href="#"
+                                                        class="block py-1 text-xs text-gray-400 hover:text-white">Leisure
+                                                        Access to Developer</a></li>
+                                                <li><a href="#"
+                                                        class="block py-1 text-xs text-gray-400 hover:text-white">Pre-Broecom</a>
+                                                </li>
+                                            </ul>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <!-- VIP Baricons Section -->
+                        <div class="space-y-2 border-l border-gray-600 pl-3 py-1">
+                            <h3 class="text-sm font-semibold font-heading text-primaryT">VIP Baricons</h3>
+                            <ul class="space-y-1">
+                                <li>
+                                    <button class="flex justify-between items-center w-full text-left">
+                                        <span>Ubuntu Management Catalogue</span>
+                                        <svg class="w-3 h-3 transform transition-transform duration-200" fill="none"
+                                            stroke="currentColor" viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M19 9l-7 7-7-7" />
+                                        </svg>
+                                    </button>
+                                    <ul class="hidden pl-3 mt-1 space-y-1 border-l border-gray-600">
+                                        <li><a href="#"
+                                                class="block py-1 text-xs text-gray-400 hover:text-white">Private
+                                                Investment Advisory at A. Scott C.A & Membership Access</a></li>
+                                        <li><a href="#" class="block py-1 text-xs text-gray-400 hover:text-white">Annual
+                                                Indicator for Trophy/Order Retired</a></li>
+                                        <li><a href="#" class="block py-1 text-xs text-gray-400 hover:text-white">Golden
+                                                War</a></li>
+                                        <li><a href="#"
+                                                class="block py-1 text-xs text-gray-400 hover:text-white">Aerospace
+                                                Guidance</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <a href="premium-services.html"
+                    class="block font-medium hover:text-secondaryT py-2 text-primaryT font-heading">About us</a>
+                <a href="contact-us.html"
+                    class="block font-medium hover:text-secondaryT py-2 text-primaryT font-heading">Contact us</a>
+            </div>
+        </header>
+        <!--  End navbar  -->
+
+
+        <!--  Start header  -->
+        <header class="tc-header-style5 text-white bg-primaryT">
+            <div class="container">
+                <div class="main-content">
+                    <div class="title">
+                        <h1 class="font-heading">VIP </h1>
+                    </div>
+                    <h4 class="fsz-24 text-uppercase mt-30 lh-4"> Exclusive Dubai <br> Lifestyle </h4>
+                </div>
+                <div class="btm-content">
+                    <div class="row align-items-end justify-content-between">
+                        <div class="col-lg-2">
+                            <a href="#" class="circle-arrow wow zoomIn slow" data-wow-delay="0.2s"> <i
+                                    class="far fa-long-arrow-down"></i> </a>
+                        </div>
+                        <div class="col-lg-5">
+                            <div class="float-imgs wow zoomIn slow" data-wow-delay="0.4s">
+                                <div class="row gx-0">
+                                    <!-- <div class="col-lg-6 bg-primaryT">
+                                        <a href="https://www.youtube.com/watch?v=qYgdnM3BC3g" class="video-card"
+                                            data-fancybox="video">
+                                            <span class="play-icon"> <i class="fat fa-play text-white"></i> </span>
+                                            <p class="text-uppercase text-white"> video <br> promotion </p>
+                                        </a>
+                                    </div> -->
+                                    <div class="col-lg-6">
+                                        <a href="#0" class="img-card">
+                                            <img src="assets/img/home5/header2.jpg" alt="" class="main-img img-cover">
+                                            <span class="play-icon"> <i class="fat fa-arrow-up-right"></i> </span>
+                                            <p class="text-uppercase"> See All <br> Apartment </p>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!--  Start header  -->
+
+
+        <!--Contents-->
+        <main>
+            <!--  Start about  -->
+            <section
+                class="tc-about-style5 w-100 text-white bg-[linear-gradient(135deg,#0E1319,#151A22,#1F2733,#283344)]">
+                <div class="container">
+                    <div class="content">
+                        <h2 class="about-title mb-150 js-splittext-lines font-heading text-white">REDEFINING ELITE
+                            LIVING<br> IN DUBAI</h2>
+                        <div class="main-content">
+                            <div class="row justify-content-between">
+                                <div class="col-lg-2 wow fadeInUp slow" data-wow-delay="0.2s">
+                                    <div class="text-secondary">
+                                        ACCESS OVER OWNERSHIP
+                                    </div>
+                                    <div class="logo-mo mt-60 th-160 op-4">
+                                        <!-- <img src="assets/img/home5/logo_mo.png" alt="" class="img-contain"> -->
+                                    </div>
+                                </div>
+                                <div class="col-lg-5">
+                                    <div class="img wow zoomIn slow" data-wow-delay="0.2s">
+                                        <img src="assets/img/home5/header.jpg" alt="" class="img-cover">
+                                    </div>
+                                </div>
+                                <div class="col-lg-3">
+                                    <h6 class="text-white text-uppercase fsz-24 lh-4 js-splittext-lines">From Legacy
+                                        Circle memberships to private aviation networks, we curate extraordinary
+                                        experiences for ultra-high-net-worth individuals and families. </h6>
+                                    <p class="fsz-13 mt-40 wow zoomIn slow" data-wow-delay="0.2s">Strategic wealth
+                                        building through exclusive real estate access, Golden Visa pathways, and elite
+                                        lifestyle management for discerning global investors.</p>
+                                    <a href="#"
+                                        class="butn border rounded-pill border-primaryT hover:bg-primaryT text-uppercase bg-primaryT text-white mt-100 wow fadeInUp slow"
+                                        data-wow-delay="0.3s">
+                                        <span> DISCOVER MORE </span>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img src="assets/images/tower-img.jpg" alt="" class="float_img">
+                <span class="lg-txt js-title sub-font" style="font-size: 8rem;"> Dubai </span>
+            </section>
+            <!--  End about  -->
+
+
+            <!-- Start life style solution -->
+            <section class="tc-flawless-style5 bg-lightT">
+                <div class="container">
+                    <!-- Section Header -->
+                    <div class="text-center mb-10 md:mb-13 p-4">
+                        <span
+                            class="inline-block bg-primaryT text-white text-xs font-semibold px-3 py-1 rounded-full mb-4 uppercase tracking-wide font-body">
+                            EXCLUSIVE SERVICES
+                        </span>
+                        <h2
+                            class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-bold text-primaryT mb-2 font-heading">
+                            ELITE LIFESTYLE SOLUTIONS
+                        </h2>
+                    </div>
+
+                    <div class="flawless wow zoomIn slow" data-wow-delay="0.2s">
+                        <div class="flex-accordion">
+                            <ul class="acc-list text-white">
+                                <!-- Slide 1: Legacy Circle Membership -->
+                                <li class="acc-li is-open">
+                                    <img src="assets/images/membership.webp" alt="" class="bg">
+                                    <div class="absolute inset-0 bg-black/40"></div> <!-- Dark overlay -->
+                                    <div class="panel-inner relative z-10">
+                                        <div class="acc-title">
+                                            <div class="numb text-white">1</div>
+                                            <div class="txt text-white"></div>
+                                        </div>
+                                        <div class="acc-body flex items-center">
+                                            <div
+                                                class="backdrop-blur-sm bg-black/30 p-20 flex flex-col justify-center rounded-xl border border-white/10">
+
+                                                <h3 class="text-title text-white pt-4 text-3xl font-bold mb-3">Legacy
+                                                    Circle Membership</h3>
+                                                <p class="text-white/90 mb-4 max-w-md">
+                                                    Elite access to Dubai's most coveted properties, with presidential
+                                                    concierge services, private galas, and exclusive networking.
+                                                </p>
+                                                <ul class="space-y-2 mb-4">
+                                                    <li class="flex items-center gap-2">
+                                                        <svg class="w-4 h-4 text-white" fill="currentColor"
+                                                            viewBox="0 0 20 20">
+                                                            <path fill-rule="evenodd"
+                                                                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                        <span>Pre-launch access to high-value developments</span>
+                                                    </li>
+                                                    <li class="flex items-center gap-2">
+                                                        <svg class="w-4 h-4 text-white" fill="currentColor"
+                                                            viewBox="0 0 20 20">
+                                                            <path fill-rule="evenodd"
+                                                                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                        <span>Presidential-level concierge services</span>
+                                                    </li>
+                                                    <li class="flex items-center gap-2">
+                                                        <svg class="w-4 h-4 text-white" fill="currentColor"
+                                                            viewBox="0 0 20 20">
+                                                            <path fill-rule="evenodd"
+                                                                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                        <span>Private galas and exclusive networking events</span>
+                                                    </li>
+                                                </ul>
+                                                <div class="flex items-center justify-around mt-6">
+                                                    <span class="text-white/80 text-sm">Starting from AED 250,000
+                                                        annually</span>
+                                                    <button
+                                                        class="bg-white text-primaryT px-6 py-2 rounded-md font-medium hover:bg-primaryT transition">
+                                                        Get Consultation
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                                <!-- Slide 2: Jet & Yacht Club Access -->
+                                <li class="acc-li">
+                                    <img src="assets/images/yacht access.jpg" alt="" class="bg">
+                                    <div class="absolute inset-0 bg-black/40"></div>
+                                    <div class="panel-inner relative z-10">
+                                        <div class="acc-title">
+                                            <div class="numb text-white">2</div>
+                                            <div class="txt text-white"></div>
+                                        </div>
+                                        <div class="acc-body flex items-center">
+                                            <div
+                                                class="backdrop-blur-sm bg-black/30 p-20 flex flex-col justify-center rounded-xl border border-white/10">
+                                                <h3 class="text-title text-white pt-4 text-3xl font-bold mb-3">Jet &
+                                                    Yacht Club Access</h3>
+                                                <p class="text-white/90 mb-4 max-w-md">
+                                                    Have a World of prestige with private jet networks, elite yacht club
+                                                    memberships, and VIP access to Dubai's finest marinas.
+                                                </p>
+                                                <ul class="space-y-2 mb-4">
+                                                    <li class="flex items-center gap-2 text-white">
+                                                        <svg class="w-4 h-4 text-white" fill="currentColor"
+                                                            viewBox="0 0 20 20">
+                                                            <path fill-rule="evenodd"
+                                                                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                        <span>Private jet networks across UAE, GCC, Europe & Asia</span>
+                                                    </li>
+                                                    <li class="flex items-center gap-2 text-white">
+                                                        <svg class="w-4 h-4 text-white" fill="currentColor"
+                                                            viewBox="0 0 20 20">
+                                                            <path fill-rule="evenodd"
+                                                                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                        <span>Ultra-exclusive yacht club memberships</span>
+                                                    </li>
+                                                    <li class="flex items-center gap-2 text-white">
+                                                        <svg class="w-4 h-4 text-white" fill="currentColor"
+                                                            viewBox="0 0 20 20">
+                                                            <path fill-rule="evenodd"
+                                                                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                        <span>Access to elite marinas and aviation lounges</span>
+                                                    </li>
+                                                </ul>
+                                                <div class="flex items-center justify-around mt-6">
+                                                    <span class="text-white/80 text-sm">Membership by invitation
+                                                        only</span>
+                                                    <button
+                                                        class="bg-white text-primaryT px-6 py-2 rounded-md font-medium hover:bg-primaryT transition">
+                                                        Get Consultation
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+
+                                <!-- Slide 3: Lifestyle Concierge -->
+                                <li class="acc-li">
+                                    <img src="assets/images/concierge lifestyle.webp" alt="" class="bg">
+                                    <div class="absolute inset-0 bg-black/40"></div>
+                                    <div class="panel-inner relative z-10">
+                                        <div class="acc-title">
+                                            <div class="numb text-white">3</div>
+                                            <div class="txt text-white"></div>
+                                        </div>
+                                        <div class="acc-body flex items-center">
+                                            <div
+                                                class="backdrop-blur-sm bg-black/30 p-20 flex flex-col justify-center rounded-xl border border-white/10">
+                                                <h3 class="text-title text-white pt-4 text-3xl font-bold mb-3">Lifestyle
+                                                    Concierge</h3>
+                                                <p class="text-white/90 mb-4 max-w-md">
+                                                    Luxury with dedicated lifestyle managers, expert personal staff
+                                                    recruitment, home management, and VIP travel solutions.
+                                                </p>
+                                                <ul class="space-y-2 mb-4">
+                                                    <li class="flex items-center gap-2 text-white">
+                                                        <svg class="w-4 h-4 text-white" fill="currentColor"
+                                                            viewBox="0 0 20 20">
+                                                            <path fill-rule="evenodd"
+                                                                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                        <span>Dedicated lifestyle managers</span>
+                                                    </li>
+                                                    <li class="flex items-center gap-2 text-white">
+                                                        <svg class="w-4 h-4 text-white" fill="currentColor"
+                                                            viewBox="0 0 20 20">
+                                                            <path fill-rule="evenodd"
+                                                                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                        <span>Personal staff recruitment and home management</span>
+                                                    </li>
+                                                    <li class="flex items-center gap-2 text-white">
+                                                        <svg class="w-4 h-4 text-white" fill="currentColor"
+                                                            viewBox="0 0 20 20">
+                                                            <path fill-rule="evenodd"
+                                                                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                        <span>VIP travel and luxury transportation</span>
+                                                    </li>
+                                                </ul>
+                                                <div class="flex items-center justify-around mt-6 w-full">
+                                                    <span class="text-white/80 text-sm">Membership by invitation
+                                                        only</span>
+                                                    <button
+                                                        class="bg-white text-primaryT px-6 py-2 rounded-md font-medium hover:bg-primaryT transition">
+                                                        Get Consultation
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+
+                                <!-- Slide 4: Private Investment Advisory -->
+                                <li class="acc-li">
+                                    <img src="assets/images/Investment-Advisory-Services.jpg" alt="" class="bg">
+                                    <div class="absolute inset-0 bg-black/40"></div>
+                                    <div class="panel-inner relative z-10">
+                                        <div class="acc-title">
+                                            <div class="numb text-white">4</div>
+                                            <div class="txt text-white"></div>
+                                        </div>
+                                        <div class="acc-body flex items-center">
+                                            <div
+                                                class="backdrop-blur-sm bg-black/30 p-20 flex flex-col justify-center rounded-xl border border-white/10">
+                                                <h3 class="text-title text-white pt-4 text-3xl font-bold mb-3">Private
+                                                    Investment Advisory</h3>
+                                                <p class="text-white/90 mb-4 max-w-md">
+                                                    Gain a strategic edge with bespoke investment solutions, exclusive
+                                                    off-market property access, and expert Golden Visa consultation.
+                                                </p>
+                                                <ul class="space-y-2 mb-4">
+                                                    <li class="flex items-center gap-2 text-white">
+                                                        <svg class="w-4 h-4 text-white" fill="currentColor"
+                                                            viewBox="0 0 20 20">
+                                                            <path fill-rule="evenodd"
+                                                                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                        <span>Bespoke investment strategies</span>
+                                                    </li>
+                                                    <li class="flex items-center gap-2 text-white">
+                                                        <svg class="w-4 h-4 text-white" fill="currentColor"
+                                                            viewBox="0 0 20 20">
+                                                            <path fill-rule="evenodd"
+                                                                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                        <span>Off-market property access</span>
+                                                    </li>
+                                                    <li class="flex items-center gap-2 text-white">
+                                                        <svg class="w-4 h-4 text-white" fill="currentColor"
+                                                            viewBox="0 0 20 20">
+                                                            <path fill-rule="evenodd"
+                                                                d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z"
+                                                                clip-rule="evenodd" />
+                                                        </svg>
+                                                        <span>Golden Visa consultation and legal support</span>
+                                                    </li>
+                                                </ul>
+                                                <div class="flex items-center justify-around mt-6">
+                                                    <span class="text-white/80 text-sm">Custom pricing by
+                                                        consultation</span>
+                                                    <button
+                                                        class="bg-white text-primaryT px-6 py-2 rounded-md font-medium hover:bg-primaryT transition">
+                                                        Get Consultation
+                                                    </button>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </li>
+
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- End life style solution -->
+
+
+            <!--  Start vip clients -->
+            <section class="tc-location-style5 bg-lightT">
+                <!-- Header Section -->
+                <div class="text-center mb-8 sm:mb-12 pt-5">
+                    <span
+                        class="inline-block bg-primaryT text-white text-xs font-semibold px-3 py-1 rounded-full mb-4 uppercase tracking-wide font-body">
+                        EXCLUSIVE CLIENTELE
+                    </span>
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-primaryT font-heading mb-6">OUR VIP
+                        CLIENTS INCLUDE</h2>
+                </div>
+                <div class="location-slider ">
+                    <div class="swiper-wrapper text-white">
+                        <div class="swiper-slide">
+                            <div class="slider-card">
+                                <img src="assets/images/high-net-worth-individual-hnwi.webp" alt="" class="bg">
+                                <div class="container">
+                                    <div class="content">
+                                        <div class="row justify-content-between">
+                                            <div class="col-lg-5">
+                                                <div class="info">
+                                                    <div class="num-cont">
+                                                        <!-- <span class="number"> 5 </span>
+                                                        <p class="fsz-18 text-uppercase"> minutes <br> walk </p> -->
+                                                    </div>
+                                                    <h2> Ultra-high-net-worth individuals (UHNWI) </h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider-card">
+                                <img src="assets/images/royal family.jpg" alt="" class="bg">
+                                <div class="container">
+                                    <div class="content">
+                                        <div class="row justify-content-between">
+                                            <div class="col-lg-5">
+                                                <div class="info">
+                                                    <div class="num-cont">
+                                                        <!-- <span class="number"> 15 </span>
+                                                        <p class="fsz-18 text-uppercase"> minutes <br> walk </p> -->
+                                                    </div>
+                                                    <h2>Royal families and diplomats</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider-card">
+                                <img src="assets/images/Global real estate-2.jpg" alt=""
+                                    class="bg w-full h-full bg-cover"
+                                    style="object-position: center;object-fit: cover;">
+                                <div class="container">
+                                    <div class="content">
+                                        <div class="row justify-content-between">
+                                            <div class="col-lg-5">
+                                                <div class="info">
+                                                    <div class="num-cont">
+                                                        <!-- <span class="number"> 20 </span>
+                                                        <p class="fsz-18 text-uppercase"> minutes <br> walk </p> -->
+                                                    </div>
+                                                    <h2 class=""> Global real estate magnates </h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider-card">
+                                <img src="assets/images/tech ente.webp" alt="" class="bg">
+                                <div class="container">
+                                    <div class="content">
+                                        <div class="row justify-content-between">
+                                            <div class="col-lg-5">
+                                                <div class="info">
+                                                    <div class="num-cont">
+                                                        <!-- <span class="number"> 17 </span>
+                                                        <p class="fsz-18 text-uppercase"> minutes <br> by car </p> -->
+                                                    </div>
+                                                    <h2>Tech entrepreneurs and private equity
+                                                        founders</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="slider-card">
+                                <img src="assets/images/internationa lfamilies.webp" alt="" class="bg">
+                                <div class="container">
+                                    <div class="content">
+                                        <div class="row justify-content-between">
+                                            <div class="col-lg-5">
+                                                <div class="info">
+                                                    <div class="num-cont">
+                                                        <!-- <span class="number"> 17 </span>
+                                                        <p class="fsz-18 text-uppercase"> minutes <br> by car </p> -->
+                                                    </div>
+                                                    <h2>International families seeking Dubai
+                                                        residency</h2>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="arrows">
+                        <div class="swiper-button-prev"></div>
+                        <div class="swiper-button-next"></div>
+                    </div>
+                </div>
+            </section>
+            <!--  End vip clients  -->
+
+
+            <!-- why choose us -->
+            <div class="wrapper py-10 bg-[#e5e7eb]">
+                <!-- Header Section -->
+                <div class="text-center">
+                    <span
+                        class="inline-block bg-[#283344] text-[#fff] text-xs font-semibold px-3 py-1 rounded-full mb-4 uppercase tracking-wide">
+                        Exclusive Living
+                    </span>
+                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-primaryT font-heading mb-5">
+                        Why Choose NIP?
+                    </h2>
+                </div>
+
+                <section class="relative h-screen bg-black text-white overflow-hidden">
+                    <div class="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
+                        style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('assets/images/about-sec-img.jpg');">
+                    </div>
+                    <div class="relative z-20 h-full flex items-center justify-end px-8 lg:px-20">
+                        <div class="max-w-lg text-left">
+                            <h1 class="text-4xl lg:text-5xl xl:text-6xl font-light leading-tight mb-6 tracking-tight">
+                                Transforming Visions Into Iconic Real Estate Experiences
+                            </h1>
+                            <p class="text-base lg:text-lg text-gray-300 leading-relaxed">
+                                Discover how NIP redefines luxury real estate through unmatched expertise, design, and a
+                                client-first approach.
+                            </p>
+                        </div>
+                    </div>
+                </section>
+
+                <!-- Services Section -->
+                <section class="relative -mt-24 mx-4 lg:mx-8 xl:mx-16 z-20">
+                    <div class="bg-white rounded-xl overflow-hidden">
+                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+                            <!-- Exclusivity -->
+                            <div
+                                class="p-8 lg:p-10 text-center border-r border-gray-200 hover:bg-primaryT group transition-all duration-300 hover:-translate-y-1 hover:shadow-lg group">
+                                <div
+                                    class="w-16 h-16 mx-auto mb-6 bg-gray-100 rounded-lg flex items-center justify-center group-hover:bg-gray-200 transition-colors duration-300">
+                                    <svg class="w-8 h-8 text-gray-600" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2H5a2 2 0 00-2-2z">
+                                        </path>
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M8 21l4-4 4 4"></path>
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M12 17l0-8"></path>
+                                    </svg>
+                                </div>
+                                <h3 class="group-hover:text-white text-xl font-semibold text-gray-900 mb-4">Exclusivity
+                                </h3>
+                                <p class="text-sm text-gray-600 leading-relaxed">
+                                    Access to Dubai's most coveted properties and experiences unavailable to the general
+                                    public.
+                                </p>
+                            </div>
+
+                            <!-- Expertise -->
+                            <div
+                                class="p-8 lg:p-10 text-center border-r border-gray-200 hover:bg-primaryT transition-all duration-300 hover:-translate-y-1 hover:shadow-lg group">
+                                <div
+                                    class="w-16 h-16 mx-auto mb-6 bg-gray-100 rounded-lg flex items-center justify-center group-hover:bg-gray-200 transition-colors duration-300">
+                                    <svg class="w-8 h-8 text-gray-600" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <h3 class="group-hover:text-white text-xl font-semibold text-gray-900 mb-4">Expertise
+                                </h3>
+                                <p class="text-sm text-gray-600 leading-relaxed">
+                                    Data-driven insights combined with deep market knowledge and strategic partnerships.
+                                </p>
+                            </div>
+
+                            <!-- Discretion -->
+                            <div
+                                class="p-8 lg:p-10 text-center border-r border-gray-200 hover:bg-primaryT transition-all duration-300 hover:-translate-y-1 hover:shadow-lg group">
+                                <div
+                                    class="w-16 h-16 mx-auto mb-6 bg-gray-100 rounded-lg flex items-center justify-center group-hover:bg-gray-200 transition-colors duration-300">
+                                    <svg class="w-8 h-8 text-gray-600" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a2 2 0 002-2V5z">
+                                        </path>
+                                    </svg>
+                                </div>
+                                <h3 class="group-hover:text-white text-xl font-semibold text-gray-900 mb-4">Discretion
+                                </h3>
+                                <p class="text-sm text-gray-600 leading-relaxed">
+                                    White-glove service with absolute privacy and confidentiality for all client
+                                    interactions.
+                                </p>
+                            </div>
+
+                            <!-- Design & Planning (fallback for 4th column) -->
+                            <div
+                                class="p-8 lg:p-10 text-center hover:bg-primaryT transition-all duration-300 hover:-translate-y-1 hover:shadow-lg group">
+                                <div
+                                    class="w-16 h-16 mx-auto mb-6 bg-gray-100 rounded-lg flex items-center justify-center group-hover:bg-gray-200 transition-colors duration-300">
+                                    <svg class="w-8 h-8 text-gray-600" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                                    </svg>
+                                </div>
+                                <h3 class="group-hover:text-white text-xl font-semibold text-gray-900 mb-4">Bespoke
+                                    Planning</h3>
+                                <p class="text-sm text-gray-600 leading-relaxed">
+                                    Tailored design and architectural excellence that aligns with your lifestyle vision.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+
+
+        </main>
+        <!--End-Contents-->
+
+
+        <!-- Golden visa  -->
+        <section id="goldenvisa" class="scroll-mt-24 py-16 relative"
+            style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(assets/images/section5-img.jpg); background-position: right; background-repeat: no-repeat; background-size: cover;">
+            <!-- Heading -->
+            <div class="text-center mb-8 relative z-20 px-4">
+                <p class="uppercase tracking-widest text-sm text-gray-300 font-body">Golden Visa Program</p>
+                <h2 class="text-4xl font-bold text-white font-subheading mb-4">Secure Your 10-Year UAE Residency</h2>
+                <p class="max-w-3xl mx-auto text-white text-base leading-relaxed font-subheading">
+                    Transform your property investment into long-term residency with our Golden Visa advisory service.
+                    We
+                    guide you through qualifying investments starting from AED 2 million, ensuring you and your family
+                    gain:
+                </p>
+            </div>
+
+            <!-- Cards -->
+            <div
+                class="max-w-7xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 divide-y sm:divide-y-0 sm:divide-x divide-gray-600 shadow-sm rounded-lg overflow-hidden relative z-20">
+
+                <!-- Benefit 1 -->
+                <div class="flex flex-col items-center text-center p-8">
+                    <div class="w-14 h-14 flex items-center justify-center mb-4 text-white text-3xl">
+                        <i class="fas fa-passport"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-white mb-2 font-heading">10‑Year Residency</h3>
+                    <p class="text-white text-sm leading-relaxed font-subheading">
+                        Renewable UAE visa for you and your family.
+                    </p>
+                </div>
+
+                <!-- Benefit 2 -->
+                <div class="flex flex-col items-center text-center p-8">
+                    <div class="w-14 h-14 flex items-center justify-center mb-4 text-white text-3xl">
+                        <i class="fas fa-user-shield"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-white mb-2 font-heading">No Local Sponsor</h3>
+                    <p class="text-white text-sm leading-relaxed font-subheading">
+                        Full independence without local sponsor requirements.
+                    </p>
+                </div>
+
+                <!-- Benefit 3 -->
+                <div class="flex flex-col items-center text-center p-8">
+                    <div class="w-14 h-14 flex items-center justify-center mb-4 text-white text-3xl">
+                        <i class="fas fa-briefcase"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-white mb-2 font-heading">Business & Travel Freedom</h3>
+                    <p class="text-white text-sm leading-relaxed font-subheading">
+                        100% business ownership and unrestricted travel.
+                    </p>
+                </div>
+
+                <!-- Benefit 4 -->
+                <div class="flex flex-col items-center text-center p-8">
+                    <div class="w-14 h-14 flex items-center justify-center mb-4 text-white text-3xl">
+                        <i class="fas fa-hospital-user"></i>
+                    </div>
+                    <h3 class="text-2xl font-semibold text-white mb-2 font-heading">Premium Access</h3>
+                    <p class="text-white text-sm leading-relaxed font-subheading">
+                        World‑class healthcare, education, and lifestyle.
+                    </p>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section class="py-8 sm:py-12 md:py-16 bg-light">
+            <div class="max-w-6xl mx-auto px-4 sm:px-6">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-4 sm:gap-4 items-start">
+                    <!-- Left Column -->
+                    <div class="flex flex-col space-y-4 sm:space-y-6">
+                        <span
+                            class="inline-block bg-primaryT text-white text-xs font-semibold px-3 py-1 rounded-full w-fit font-body">
+                            CLIENT VOICES
+                        </span>
+                        <h2 class="text-2xl sm:text-3xl lg:text-4xl font-bold font-heading text-primaryT">What People
+                            Say</h2>
+                        <p class="text-sm sm:text-base max-w-sm leading-relaxed font-subheading text-secondaryT">
+                            Reflections from global investors and discerning buyers—each experience a testament to our
+                            legacy of trust, discretion, and excellence.
+                        </p>
+                        <!-- Custom navigation -->
+                        <div class="flex space-x-3 mt-6 sm:mt-8">
+                            <label for="prev-testimonials"
+                                class="w-10 h-10 sm:w-12 sm:h-12 rounded-full border border-secondary flex items-center justify-center hover:bg-gray-100 transition-colors cursor-pointer">
+                                <svg class="w-4 h-4 sm:w-5 sm:h-5 text-dark" fill="none" stroke="currentColor"
+                                    stroke-width="2" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M15 19l-7-7 7-7" />
+                                </svg>
+                            </label>
+                            <label for="next-testimonials"
+                                class="w-10 h-10 sm:w-12 sm:h-12 rounded-full border border-secondary flex items-center justify-center hover:bg-gray-100 transition-colors cursor-pointer">
+                                <svg class="w-4 h-4 sm:w-5 sm:h-5 text-dark" fill="none" stroke="currentColor"
+                                    stroke-width="2" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" d="M9 5l7 7-7 7" />
+                                </svg>
+                            </label>
+                        </div>
+                    </div>
+
+                    <!-- Right Column: Testimonials Carousel -->
+                    <div class="testimonials-carousel">
+                        <!-- Hidden radio buttons for carousel control -->
+                        <input type="radio" id="slide-1" name="testimonial-slide" class="carousel-control" checked>
+                        <input type="radio" id="slide-2" name="testimonial-slide" class="carousel-control">
+                        <input type="radio" id="slide-3" name="testimonial-slide" class="carousel-control">
+
+                        <!-- Hidden buttons for navigation logic -->
+                        <input type="button" id="next-testimonials" class="nav-control">
+                        <input type="button" id="prev-testimonials" class="nav-control">
+
+                        <div class="carousel-container flex justify-center">
+                            <!-- Slide 1: First pair of testimonials -->
+                            <div class="carousel-slide slide-1">
+                                <div class="flex flex-col sm:flex-row gap-4 sm:gap-6">
+                                    <!-- Testimonial 1 -->
+                                    <div
+                                        class="testimonial-card bg-white rounded-lg shadow-sm border border-gray-100 p-4 sm:p-6 flex-1">
+                                        <div class="flex space-x-1 mb-2 sm:mb-2">
+                                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-primaryT fill-current"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-primaryT fill-current"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-primaryT fill-current"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-primaryT fill-current"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-primaryT fill-current"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                        </div>
+                                        <div class="testimonial-content">
+                                            <p
+                                                class="testimonial-text text-xs sm:text-sm text-dark leading-relaxed mb-4 font-body text-primaryT">
+                                                Working with NIP was unlike any other brokerage experience. Their
+                                                approach
+                                                was calm, discreet, and deeply informed. It wasn't just a property—it
+                                                felt
+                                                like a generational decision made right.
+                                            </p>
+                                        </div>
+                                        <div class="testimonial-author flex items-center space-x-2 sm:space-x-3">
+                                            <img src="https://randomuser.me/api/portraits/women/44.jpg"
+                                                alt="Sophia Rahman"
+                                                class="w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover flex-shrink-0">
+                                            <div class="min-w-0">
+                                                <p
+                                                    class="text-xs sm:text-sm font-semibold text-dark truncate font-heading">
+                                                    Sophia Rahman</p>
+                                                <p class="text-xs text-secondary truncate font-subheading">Private
+                                                    Investor
+                                                    – UK</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Testimonial 2 -->
+                                    <div
+                                        class="testimonial-card bg-white rounded-lg shadow-sm border border-gray-100 p-4 sm:p-6 flex-1">
+                                        <div class="flex space-x-1 mb-2 sm:mb-2">
+                                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-primaryT fill-current"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-primaryT fill-current"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-primaryT fill-current"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-primaryT fill-current"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-primaryT fill-current"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                        </div>
+                                        <div class="testimonial-content">
+                                            <p
+                                                class="testimonial-text text-xs sm:text-sm text-dark leading-relaxed mb-4 font-body text-primaryT">
+                                                NIP handled our acquisition with precision and full respect for
+                                                confidentiality. The level of professionalism and integrity they uphold
+                                                is
+                                                rare in global real estate today.
+                                            </p>
+                                        </div>
+                                        <div class="testimonial-author flex items-center space-x-2 sm:space-x-3">
+                                            <img src="https://randomuser.me/api/portraits/men/32.jpg"
+                                                alt="Yousef Al-Mansoori"
+                                                class="w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover flex-shrink-0">
+                                            <div class="min-w-0">
+                                                <p
+                                                    class="text-xs sm:text-sm font-semibold text-dark truncate font-heading">
+                                                    Yousef Al-Mansoori</p>
+                                                <p class="text-xs text-secondary truncate font-subheading">Family Office
+                                                    Representative – UAE</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slide 2: Second pair of testimonials -->
+                            <div class="carousel-slide slide-2">
+                                <div class="flex flex-col sm:flex-row gap-4 sm:gap-6">
+                                    <!-- Testimonial 3 -->
+                                    <div
+                                        class="testimonial-card bg-white rounded-lg shadow-sm border border-gray-100 p-4 sm:p-6 flex-1">
+                                        <div class="flex space-x-1 mb-2 sm:mb-2">
+                                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-primaryT fill-current"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-primaryT fill-current"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-primaryT fill-current"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-primaryT fill-current"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-primaryT fill-current"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                        </div>
+                                        <div class="testimonial-content">
+
+                                            <p
+                                                class="testimonial-text text-xs sm:text-sm text-dark leading-relaxed mb-4 font-body text-primaryT">
+                                                The team at NIP exceeded every expectation. From initial consultation to
+                                                final handover, their attention to detail and market knowledge was
+                                                exceptional. Truly a world-class service.
+                                            </p>
+                                        </div>
+                                        <div class="testimonial-author flex items-center space-x-2 sm:space-x-3">
+                                            <img src="https://randomuser.me/api/portraits/women/68.jpg"
+                                                alt="Maria Rodriguez"
+                                                class="w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover flex-shrink-0">
+                                            <div class="min-w-0">
+                                                <p
+                                                    class="text-xs sm:text-sm font-semibold text-dark truncate font-heading">
+                                                    Maria Rodriguez</p>
+                                                <p class="text-xs text-secondary truncate font-subheading">Investment
+                                                    Manager – Spain</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Testimonial 4 -->
+                                    <div
+                                        class="testimonial-card bg-white rounded-lg shadow-sm border border-gray-100 p-4 sm:p-6 flex-1">
+                                        <div class="flex space-x-1 mb-2 sm:mb-2">
+                                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-primaryT fill-current"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-primaryT fill-current"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-primaryT fill-current"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-primaryT fill-current"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-primaryT fill-current"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                        </div>
+                                        <div class="testimonial-content">
+
+                                            <p
+                                                class="testimonial-text text-xs sm:text-sm text-dark leading-relaxed mb-4 font-body text-primaryT">
+                                                NIP's global network and local expertise made our Dubai investment
+                                                seamless.
+                                                Their strategic insights and personalized approach set them apart in the
+                                                luxury real estate market.
+                                            </p>
+                                        </div>
+                                        <div class="testimonial-author flex items-center space-x-2 sm:space-x-3">
+                                            <img src="https://randomuser.me/api/portraits/men/45.jpg" alt="James Chen"
+                                                class="w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover flex-shrink-0">
+                                            <div class="min-w-0">
+                                                <p
+                                                    class="text-xs sm:text-sm font-semibold text-dark truncate font-heading">
+                                                    James Chen</p>
+                                                <p class="text-xs text-secondary truncate font-subheading">Portfolio
+                                                    Manager
+                                                    – Singapore</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- Slide 3: Third pair of testimonials -->
+                            <div class="carousel-slide slide-3">
+                                <div class="flex flex-col sm:flex-row gap-4 sm:gap-6">
+                                    <!-- Testimonial 5 -->
+                                    <div
+                                        class="testimonial-card bg-white rounded-lg shadow-sm border border-gray-100 p-4 sm:p-6 flex-1">
+                                        <div class="flex space-x-1 mb-2 sm:mb-2">
+                                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-primaryT fill-current"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-primaryT fill-current"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-primaryT fill-current"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-primaryT fill-current"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-primaryT fill-current"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                        </div>
+                                        <div class="testimonial-content">
+
+                                            <p
+                                                class="testimonial-text text-xs sm:text-sm text-dark leading-relaxed mb-4 font-body text-primaryT">
+                                                Outstanding service from start to finish. NIP's commitment to excellence
+                                                and
+                                                their deep understanding of the luxury market made our property
+                                                acquisition
+                                                effortless and rewarding.
+                                            </p>
+                                        </div>
+                                        <div class="testimonial-author flex items-center space-x-2 sm:space-x-3">
+                                            <img src="https://randomuser.me/api/portraits/women/72.jpg"
+                                                alt="Emma Thompson"
+                                                class="w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover flex-shrink-0">
+                                            <div class="min-w-0">
+                                                <p
+                                                    class="text-xs sm:text-sm font-semibold text-dark truncate font-heading">
+                                                    Emma Thompson</p>
+                                                <p class="text-xs text-secondary truncate font-subheading">Real Estate
+                                                    Investor – Australia</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <!-- Testimonial 6 -->
+                                    <div
+                                        class="testimonial-card bg-white rounded-lg shadow-sm border border-gray-100 p-4 sm:p-6 flex-1">
+                                        <div class="flex space-x-1 mb-2 sm:mb-2">
+                                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-primaryT fill-current"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-primaryT fill-current"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-primaryT fill-current"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-primaryT fill-current"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                            <svg class="w-4 h-4 sm:w-5 sm:h-5 text-primaryT fill-current"
+                                                viewBox="0 0 20 20">
+                                                <path
+                                                    d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z" />
+                                            </svg>
+                                        </div>
+                                        <div class="testimonial-content">
+
+                                            <p
+                                                class="testimonial-text text-xs sm:text-sm text-dark leading-relaxed mb-4 font-body text-primaryT">
+                                                NIP's expertise in the Dubai market is unmatched. Their personalized
+                                                approach and attention to detail made our investment journey smooth and
+                                                highly profitable. Highly recommended.
+                                            </p>
+                                        </div>
+                                        <div class="testimonial-author flex items-center space-x-2 sm:space-x-3">
+                                            <img src="https://randomuser.me/api/portraits/men/67.jpg" alt="Ahmed Hassan"
+                                                class="w-10 h-10 sm:w-12 sm:h-12 rounded-full object-cover flex-shrink-0">
+                                            <div class="min-w-0">
+                                                <p
+                                                    class="text-xs sm:text-sm font-semibold text-dark truncate font-heading">
+                                                    Ahmed Hassan</p>
+                                                <p class="text-xs text-secondary truncate font-subheading">Business
+                                                    Owner –
+                                                    Egypt</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact/Consultation Section -->
+        <section id="guidance"
+            class="scroll-mt-80 py-12 sm:py-16 md:py-20 text-white relative overflow-hidden z-10 bg-primaryT">
+
+            <div class="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
+                style="background-image: url('assets/images/Business Bay.jpg');"></div>
+
+            <!--  Black Overlay -->
+            <div class="absolute inset-0 bg-black opacity-75 z-10"></div>
+
+            <!--  Main Content -->
+            <div class="relative z-20 container mx-auto px-4 sm:px-6 max-w-6xl">
+                <div class="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center">
+
+                    <!-- Left Content -->
+                    <div class="space-y-4 sm:space-y-6">
+                        <div class="flex items-center space-x-4 mb-6 sm:mb-8">
+                            <div class="w-12 sm:w-16 h-0.5 bg-white"></div>
+                        </div>
+                        <h2
+                            class="text-3xl sm:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 leading-tight font-heading text-white">
+                            Request a
+                            Consultation</h2>
+                        <p class="text-white text-base  leading-relaxed max-w-md font-subheading">
+                            Begin your journey toward property ownership with confidence. Our advisors offer tailored
+                            insight for investors, families, and global professionals seeking exceptional opportunities
+                            in
+                            Dubai and beyond.
+                        </p>
+                    </div>
+
+                    <!-- Right Contact Form -->
+                    <div class="bg-transparent rounded-xl sm:rounded-2xl p-4 sm:p-6 shadow-lg border">
+                        <form class="space-y-3 sm:space-y-4">
+                            <!-- Name Field -->
+                            <div>
+                                <input type="text" placeholder="Full Name"
+                                    class="w-full px-3 sm:px-4 py-3 sm:py-4 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primaryT focus:border-transparent text-primaryT placeholder-secondaryT text-sm sm:text-base font-body">
+                            </div>
+
+                            <!-- Email Field -->
+                            <div>
+                                <input type="email" placeholder="Email Address"
+                                    class="w-full px-3 sm:px-4 py-3 sm:py-4 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primaryT focus:border-transparent text-primaryT placeholder-secondaryT text-sm sm:text-base font-body">
+                            </div>
+
+                            <!-- Language Dropdown -->
+                            <div class="relative">
+                                <select
+                                    class="w-full px-3 sm:px-4 py-3 sm:py-4 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primaryT focus:border-transparent text-gray-900 appearance-none bg-white text-sm sm:text-base">
+                                    <option value="">Preferred Language</option>
+                                    <option value="english">English</option>
+                                    <option value="arabic">Arabic</option>
+                                    <option value="hindi">Hindi</option>
+                                    <option value="urdu">Urdu</option>
+                                </select>
+                                <div
+                                    class="absolute inset-y-0 right-0 flex items-center px-3 sm:px-4 pointer-events-none">
+                                    <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor"
+                                        viewBox="0 0 24 24">
+                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                            d="M19 9l-7 7-7-7"></path>
+                                    </svg>
+                                </div>
+                            </div>
+
+                            <!-- Phone Field -->
+                            <div class="flex flex-wrap gap-2 sm:gap-3">
+                                <div class="relative w-24 flex-shrink-0">
+                                    <select
+                                        class="w-full px-3 py-3 sm:py-4 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primaryT focus:border-transparent text-gray-900 appearance-none bg-white text-sm">
+                                        <option value="+971">+971</option>
+                                        <option value="+1">+1</option>
+                                        <option value="+44">+44</option>
+                                        <option value="+91">+91</option>
+                                    </select>
+                                    <div class="absolute inset-y-0 right-2 flex items-center pointer-events-none">
+                                        <svg class="w-4 h-4 text-gray-400" fill="none" stroke="currentColor"
+                                            viewBox="0 0 24 24">
+                                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                                d="M19 9l-7 7-7-7" />
+                                        </svg>
+                                    </div>
+                                </div>
+                                <input type="tel" placeholder="Phone Number"
+                                    class="flex-1 min-w-0 w-full px-4 py-3 sm:py-4 rounded-lg border border-gray-200 focus:outline-none focus:ring-2 focus:ring-primaryT focus:border-transparent text-gray-900 placeholder-gray-500 text-sm sm:text-base">
+                            </div>
+
+                            <!-- Privacy Checkbox -->
+                            <div class="flex items-start space-x-3 pt-2">
+                                <input type="checkbox" id="privacy"
+                                    class="mt-1 w-4 h-4 text-primary border-gray-300 rounded focus:ring-primary focus:ring-2 flex-shrink-0">
+                                <label for="privacy" class="text-xs sm:text-sm text-white leading-relaxed font-body">
+                                    I agree to the terms and privacy policy.
+                                </label>
+                            </div>
+
+                            <!-- Submit Button -->
+                            <button type="submit"
+                                class="w-full bg-secondaryT hover:bg-primaryT hover:text-white text-primaryT font-semibold py-3 sm:py-4 px-4 sm:px-6 rounded-lg transition-colors duration-200 text-sm sm:text-xl font-heading">
+                                Submit Inquiry
+                            </button>
+                        </form>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <!--  Start footer  -->
+        <footer class="bg-[linear-gradient(135deg,#0E1319,#151A22,#1F2733,#283344)] text-white pb-8 sm:pb-10 md:pb-14">
+            <div class="container mx-auto px-4 sm:px-6 max-w-6xl">
+                <!-- Logo -->
+                <div class="flex items-center justify-center w-full">
+                    <div class="w-12 h-12 sm:w-14 sm:h-14 md:w-24 md:h-24 rounded-lg flex items-center justify-center">
+                        <img src="assets/images/NIP WHITE LOGO PNG.png" alt="NIP Logo"
+                            class="w-full h-full object-contain">
+                    </div>
+                </div>
+
+
+                <!-- Main Footer Content -->
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 sm:gap-8 mb-8 sm:mb-12 mt-5 sm:mt-8">
+                    <!-- Company Info -->
+                    <div class="sm:col-span-2 lg:col-span-1">
+                        <p class="mb-4 sm:mb-6 leading-relaxed text-sm sm:text-base">
+                            NIP is a premier brokerage firm committed to delivering exceptional property experiences
+                            with
+                            global discretion and vision.
+                        </p>
+                        <div class="space-y-2 sm:space-y-3">
+                            <div class="flex items-start text-white">
+                                <svg class="w-4 h-4 mr-3 flex-shrink-0 mt-0.5" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
+                                </svg>
+                                <span class="text-xs sm:text-sm">Business Bay, Dubai, United Arab Emirates</span>
+                            </div>
+                            <div class="flex items-center text-white">
+                                <svg class="w-4 h-4 mr-3 flex-shrink-0" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 5a2 2 0 012-2h3.28a1 1 0 01.948.684l1.498 4.493a1 1 0 01-.502 1.21l-2.257 1.13a11.042 11.042 0 005.516 5.516l1.13-2.257a1 1 0 011.21-.502l4.493 1.498a1 1 0 01.684.949V19a2 2 0 01-2 2h-1C9.716 21 3 14.284 3 6V5z" />
+                                </svg>
+                                <span class="text-xs sm:text-sm">+971 50 123 4567</span>
+                            </div>
+                            <div class="flex items-center text-white">
+                                <svg class="w-4 h-4 mr-3 flex-shrink-0" fill="none" stroke="currentColor"
+                                    viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                                </svg>
+                                <span class="text-xs sm:text-sm">contact@nipproperties.com</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Categories -->
+                    <div>
+                        <h3 class="text-base sm:text-lg font-semibold mb-4 sm:mb-6 text-white">Categories</h3>
+                        <ul class="space-y-2 sm:space-y-3">
+                            <li><a href="#"
+                                    class="text-white hover:text-gray-300 transition-colors text-xs sm:text-sm">Browse
+                                    Properties</a></li>
+                            <li><a href="#"
+                                    class="text-white hover:text-gray-300 transition-colors text-xs sm:text-sm">Our
+                                    Services</a></li>
+                            <li><a href="#"
+                                    class="text-white hover:text-gray-300 transition-colors text-xs sm:text-sm">About
+                                    NIP</a></li>
+                            <li><a href="#"
+                                    class="text-white hover:text-gray-300 transition-colors text-xs sm:text-sm">Contact
+                                    Advisors</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Our Company -->
+                    <div>
+                        <h3 class="text-base sm:text-lg font-semibold mb-4 sm:mb-6 text-white">Our Company</h3>
+                        <ul class="space-y-2 sm:space-y-3">
+                            <li><a href="#"
+                                    class="text-white hover:text-gray-300 transition-colors text-xs sm:text-sm">For
+                                    Sale</a></li>
+                            <li><a href="#"
+                                    class="text-white hover:text-gray-300 transition-colors text-xs sm:text-sm">For
+                                    Rent</a></li>
+                            <li><a href="#"
+                                    class="text-white hover:text-gray-300 transition-colors text-xs sm:text-sm">Privacy
+                                    &
+                                    Compliance</a></li>
+                            <li><a href="#"
+                                    class="text-white hover:text-gray-300 transition-colors text-xs sm:text-sm">Meet
+                                    Our Team</a></li>
+                        </ul>
+                    </div>
+
+                    <!-- Newsletter -->
+                    <div class="sm:col-span-2 lg:col-span-1">
+                        <h3 class="text-base sm:text-lg font-semibold mb-4 sm:mb-6 text-white">Newsletter</h3>
+                        <p class="text-white mb-4 sm:mb-6 text-xs sm:text-sm leading-relaxed">
+                            Receive market insights, curated listings, and NIP updates—direct to your inbox.
+                        </p>
+                        <div class="flex items-center rounded-lg overflow-hidden w-full max-w-md">
+                            <input type="email" placeholder="Enter Your Email"
+                                class="flex-1 px-4 py-3 bg-gray-500 text-white placeholder-gray-400 text-sm focus:outline-none focus:ring-2 focus:ring-primary focus:border-transparent" />
+
+                            <button class="bg-secondaryT hover:bg-primaryT text-white px-4 py-3 transition-colors">
+                                <svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
+                                        d="M12 19l9 2-9-18-9 18 9-2zm0 0v-8" />
+                                </svg>
+                            </button>
+                        </div>
+
+
+                        <!-- Social Media -->
+                        <div class="flex flex-col sm:flex-row items-center w-full mt-5">
+                            <span class="text-gray-400 text-sm sm:text-base me-2 whitespace-nowrap">Follow Us: </span>
+                            <div class="flex items-center space-x-3">
+                                <!-- Twitter -->
+                                <a href="#"
+                                    class="w-8 h-8 sm:w-9 sm:h-9 bg-gray-800 rounded flex items-center justify-center hover:bg-gray-700 transition-colors">
+                                    <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                        <path
+                                            d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z" />
+                                    </svg>
+                                </a>
+                                <!-- Facebook -->
+                                <a href="#"
+                                    class="w-8 h-8 sm:w-9 sm:h-9 bg-gray-800 rounded flex items-center justify-center hover:bg-gray-700 transition-colors">
+                                    <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                        <path
+                                            d="M22 12c0-5.52-4.48-10-10-10S2 6.48 2 12c0 4.84 3.44 8.87 8 9.8v-6.91h-2.4V12h2.4V9.84c0-2.36 1.4-3.66 3.55-3.66 1.03 0 2.1.18 2.1.18v2.3h-1.18c-1.16 0-1.52.72-1.52 1.45V12h2.6l-.42 2.89h-2.18v6.91c4.56-.93 8-4.96 8-9.8z" />
+                                    </svg>
+                                </a>
+                                <!-- Reddit -->
+                                <a href="#"
+                                    class="w-8 h-8 sm:w-9 sm:h-9 bg-gray-800 rounded flex items-center justify-center hover:bg-gray-700 transition-colors">
+                                    <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                        <path
+                                            d="M24 12c0-6.627-5.373-12-12-12S0 5.373 0 12c0 5.65 3.937 10.353 9.092 11.646-.126-.954-.24-2.419.05-3.462.262-.935 1.687-5.956 1.687-5.956s-.43-.863-.43-2.14c0-2.003 1.162-3.497 2.607-3.497 1.23 0 1.823.924 1.823 2.031 0 1.238-.79 3.09-1.198 4.805-.341 1.433.723 2.602 2.143 2.602 2.571 0 4.544-2.712 4.544-6.627 0-3.455-2.48-5.879-6.027-5.879-4.104 0-6.506 3.078-6.506 6.259 0 1.238.476 2.569 1.071 3.288.12.144.137.27.1.414-.107.455-.354 1.438-.4 1.637-.06.255-.198.31-.459.187-1.713-.8-2.79-3.308-2.79-5.329 0-4.339 3.153-8.318 9.095-8.318 4.777 0 8.482 3.408 8.482 7.97 0 4.744-2.992 8.56-7.144 8.56-1.395 0-2.705-.724-3.148-1.57l-.858 3.274c-.311 1.19-1.15 2.68-1.712 3.59C8.607 23.8 10.264 24 12 24c6.627 0 12-5.373 12-12z" />
+                                    </svg>
+                                </a>
+                                <!-- LinkedIn -->
+                                <a href="#"
+                                    class="w-8 h-8 sm:w-9 sm:h-9 bg-gray-800 rounded flex items-center justify-center hover:bg-gray-700 transition-colors">
+                                    <svg class="w-4 h-4 text-white" fill="currentColor" viewBox="0 0 24 24">
+                                        <path
+                                            d="M20.447 20.452h-3.554v-5.569c0-1.328-.027-3.037-1.852-3.037-1.853 0-2.136 1.445-2.136 2.939v5.667H9.351V9h3.414v1.561h.046c.477-.9 1.637-1.85 3.37-1.85 3.601 0 4.267 2.37 4.267 5.455v6.286zM5.337 7.433c-1.144 0-2.063-.926-2.063-2.065 0-1.138.92-2.063 2.063-2.063 1.14 0 2.064.925 2.064 2.063 0 1.139-.925 2.065-2.064 2.065zM6.782 20.452H3.893V9h2.889v11.452z" />
+                                    </svg>
+                                </a>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                </div>
+
+                <!-- Footer Bottom -->
+                <div
+                    class="border-t border-gray-700 pt-6 sm:pt-8 flex flex-col sm:flex-row justify-between items-center gap-4 sm:gap-0">
+                    <p class="text-white text-xs sm:text-sm text-center sm:text-left">© 2025 NIP – Novel Insight
+                        Property.
+                        All rights reserved.</p>
+                    <div class="flex flex-wrap justify-center sm:justify-end space-x-4 sm:space-x-6">
+                        <a href="#" class="text-white hover:text-gray-300 transition-colors text-xs sm:text-sm">Terms Of
+                            Service</a>
+                        <a href="#" class="text-white hover:text-gray-300 transition-colors text-xs sm:text-sm">Privacy
+                            Policy</a>
+                        <a href="#" class="text-white hover:text-gray-300 transition-colors text-xs sm:text-sm">Cookie
+                            Policy</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!--  End footer  -->
+
+    </div>
+    <script>
+        // Mobile menu toggle
+        const mobileMenuButton = document.getElementById('mobile-menu-button');
+        const mobileMenu = document.getElementById('mobile-menu');
+
+        mobileMenuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+        });
+
+        // NIP Approach dropdown toggle for mobile
+        const mobileNipButton = document.getElementById('mobile-nip-approach');
+        const mobileNipDropdown = document.getElementById('mobile-nip-dropdown');
+        const mobileNipArrow = document.getElementById('mobile-nip-arrow');
+
+        mobileNipButton.addEventListener('click', () => {
+            mobileNipDropdown.classList.toggle('hidden');
+            mobileNipArrow.classList.toggle('rotate-180');
+        });
+
+        // Nested dropdown toggles for mobile
+        document.querySelectorAll('#mobile-nip-dropdown button').forEach(button => {
+            button.addEventListener('click', (e) => {
+                e.stopPropagation();
+                const ul = button.parentElement.querySelector('ul');
+                const svg = button.querySelector('svg');
+
+                if (ul && svg) {
+                    ul.classList.toggle('hidden');
+                    svg.classList.toggle('rotate-180');
+                }
+            });
+        });
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('#mobile-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+            });
+        });
+    </script>
+    <script src="script.js"></script>
+    <!--  Start to top button  -->
+    <a href="#" class="to_top">
+        <i class="fal fa-angle-up"></i>
+    </a>
+    <!--  End to top button  -->
+
+    <!--  request  -->
+    <script src="common/assets/js/lib/jquery-3.0.0.min.js"></script>
+    <script src="common/assets/js/lib/jquery-migrate-3.0.0.min.js"></script>
+    <script src="common/assets/js/lib/bootstrap.bundle.min.js"></script>
+    <script src="common/assets/js/lib/wow.min.js"></script>
+    <script src="common/assets/js/lib/jquery.fancybox.js"></script>
+    <script src="common/assets/js/lib/lity.js"></script>
+    <script src="common/assets/js/lib/swiper8-bundle.min.js"></script>
+    <script src="common/assets/js/lib/jquery.waypoints.min.js"></script>
+    <script src="common/assets/js/lib/jquery.counterup.js"></script>
+    <script src="common/assets/js/lib/parallaxie.js"></script>
+    <!-- === Gsap === -->
+    <script src="common/assets/js/gsap_lib/gsap.min.js"></script>
+    <script src="common/assets/js/gsap_lib/ScrollSmoother.min.js"></script>
+    <script src="common/assets/js/gsap_lib/ScrollTrigger.min.js"></script>
+    <script src="common/assets/js/gsap_lib/SplitText.min.js"></script>
+    <!-- === common === -->
+    <script src="common/assets/js/common_js.js"></script>
+
+    <!-- ===== home scripts ===== -->
+    <script src="assets/main.js"></script>
+    <script>
+        // <!-- testimonial-content -->
+
+        // Pure CSS carousel with minimal JavaScript for radio button management
+        document.addEventListener('DOMContentLoaded', function () {
+            const slides = document.querySelectorAll('input[name="testimonial-slide"]');
+            const nextBtn = document.querySelector('label[for="next-testimonials"]');
+            const prevBtn = document.querySelector('label[for="prev-testimonials"]');
+
+            let currentSlide = 0;
+            const totalSlides = slides.length;
+
+            nextBtn.addEventListener('click', function () {
+                currentSlide = (currentSlide + 1) % totalSlides;
+                slides[currentSlide].checked = true;
+            });
+
+            prevBtn.addEventListener('click', function () {
+                currentSlide = (currentSlide - 1 + totalSlides) % totalSlides;
+                slides[currentSlide].checked = true;
+            });
+        });
+    </script>
+
+</body>
+
+</html>

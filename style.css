@@ -1,0 +1,181 @@
+
+/* Hide all carousel controls */
+.carousel-control,
+.nav-control {
+    display: none;
+}
+
+/* Carousel container */
+.testimonials-carousel {
+    position: relative;
+    overflow: hidden;
+}
+
+.carousel-container {
+    position: relative;
+    width: 100%;
+}
+
+/* Hide all slides by default */
+.carousel-slide {
+    display: none;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out;
+}
+
+/* Show slide 1 when slide-1 is checked */
+#slide-1:checked ~ .carousel-container .slide-1 {
+    display: block;
+    opacity: 1;
+}
+
+/* Show slide 2 when slide-2 is checked */
+#slide-2:checked ~ .carousel-container .slide-2 {
+    display: block;
+    opacity: 1;
+}
+
+/* Show slide 3 when slide-3 is checked */
+#slide-3:checked ~ .carousel-container .slide-3 {
+    display: block;
+    opacity: 1;
+}
+
+/* Custom radio button styling for navigation */
+.testimonials-carousel input[type="radio"] {
+    position: absolute;
+    opacity: 0;
+    pointer-events: none;
+}
+
+/* Navigation button states */
+label[for="prev-testimonials"],
+label[for="next-testimonials"] {
+    transition: all 0.2s ease;
+}
+
+label[for="prev-testimonials"]:hover,
+label[for="next-testimonials"]:hover {
+    background-color: #f3f4f6;
+    transform: translateY(-1px);
+}
+
+label[for="prev-testimonials"]:active,
+label[for="next-testimonials"]:active {
+    transform: translateY(0);
+}
+
+/* Fixed testimonial card structure */
+.testimonial-card {
+    display: flex;
+    flex-direction: column;
+    min-height: 280px;
+    max-height: 280px;
+    min-width: 250px;
+    max-width: 250px;
+}
+
+.testimonial-content {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    max-height: 80%;
+    overflow: scroll;
+    scrollbar-width: none; /* Firefox */
+}
+.testimonial-content::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+}
+
+.testimonial-text {
+    flex-grow: 1;
+
+}
+
+.testimonial-author {
+    margin-top: auto;
+    flex-shrink: 0;
+}
+
+/* Responsive height adjustments */
+@media (max-width: 640px) {
+    .testimonial-card {
+        min-height: 260px;
+        max-height: 260px;
+    }
+}
+
+@media (min-width: 641px) {
+    .testimonial-card {
+        min-height: 300px;
+        max-height: 300px;
+    }
+}
+
+/* Ensure equal width on desktop */
+@media (min-width: 640px) {
+    .carousel-slide .flex {
+        display: flex;
+    }
+    
+    .testimonial-card {
+        flex: 1;
+        width: 50%;
+    }
+}
+
+/* Ensure images are properly displayed */
+.testimonial-author img {
+    display: block;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+/* Ensure text content is properly spaced */
+.testimonial-content > div:first-child {
+    margin-bottom: 1rem;
+}
+
+.testimonial-text {
+    margin-bottom: 1rem;
+}
+/* why choose us section  */
+/* Hover effects */
+.group:hover .group-hover\:shadow-md {
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+    .group {
+        margin-bottom: 1rem;
+    }
+}
+
+/* Animation for cards */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* .group {
+    animation: fadeInUp 0.6s ease-out;
+} */
+
+.group:nth-child(1) {
+    animation-delay: 0.1s;
+}
+
+.group:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.group:nth-child(3) {
+    animation-delay: 0.3s;
+}
