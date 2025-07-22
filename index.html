@@ -332,7 +332,8 @@
 
 
         <!--  Start header  -->
-        <header class="tc-header-style5 text-white bg-primaryT">
+        <header class="tc-header-style5 text-white bg-primaryT"
+            style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.4)), url(assets/images/hero-sec-img.jpg); background-position: center; background-repeat: no-repeat; background-size: cover;">
             <div class="container">
                 <div class="main-content">
                     <div class="title">
@@ -394,7 +395,7 @@
                                 </div>
                                 <div class="col-lg-5">
                                     <div class="img wow zoomIn slow" data-wow-delay="0.2s">
-                                        <img src="assets/img/home5/header.jpg" alt="" class="img-cover">
+                                        <img src="assets/images/vip-img.png" alt="" class="img-cover">
                                     </div>
                                 </div>
                                 <div class="col-lg-3">
@@ -414,7 +415,6 @@
                         </div>
                     </div>
                 </div>
-                <img src="assets/images/tower-img.jpg" alt="" class="float_img">
                 <span class="lg-txt js-title sub-font" style="font-size: 8rem;"> Dubai </span>
             </section>
             <!--  End about  -->
@@ -689,8 +689,9 @@
             <!-- End life style solution -->
 
 
-            <!--  Start vip clients -->
-            <section class="tc-location-style5 bg-lightT">
+
+            <!-- Start vip clients -->
+            <section class="tc-location-style5 bg-lightT relative">
                 <!-- Header Section -->
                 <div class="text-center mb-8 sm:mb-12 pt-5">
                     <span
@@ -700,247 +701,454 @@
                     <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-primaryT font-heading mb-6">OUR VIP
                         CLIENTS INCLUDE</h2>
                 </div>
-                <div class="location-slider ">
-                    <div class="swiper-wrapper text-white">
-                        <div class="swiper-slide">
-                            <div class="slider-card">
-                                <img src="assets/images/high-net-worth-individual-hnwi.webp" alt="" class="bg">
-                                <div class="container">
-                                    <div class="content">
-                                        <div class="row justify-content-between">
-                                            <div class="col-lg-5">
-                                                <div class="info">
-                                                    <div class="num-cont">
-                                                        <!-- <span class="number"> 5 </span>
-                                                        <p class="fsz-18 text-uppercase"> minutes <br> walk </p> -->
-                                                    </div>
-                                                    <h2> Ultra-high-net-worth individuals (UHNWI) </h2>
+
+                <div class="location-slider" style="height: 110vh">
+                    <div class="swiper-wrapper text-white h-full">
+                        <!-- Slide 1 - UHNWI -->
+                        <div class="swiper-slide h-full">
+                            <div class="slider-card h-full relative">
+                                <img src="assets/images/high-net-worth-individual-hnwi.webp" alt=""
+                                    class="bg absolute inset-0 w-full h-full object-cover">
+                                <div class="container h-full mx-auto px-4 z-50">
+                                    <div class="content h-full">
+                                        <div class="row h-full">
+                                            <div
+                                                class="col-12 h-full flex flex-col justify-end pb-[2rem] w-[80vw] mx-auto">
+                                                <div class="info flex items-end w-full h-full mb-[2rem]">
+                                                    <h2
+                                                        class="pb-10 text-white font-normal text-[60px] leading-[70px] uppercase font-bold">
+                                                        Ultra-high-net-worth <br> individuals (UHNWI)
+                                                    </h2>
                                                 </div>
+                                                <ul class="flex justify-between text-secondaryT text-[20px] w-[80%]">
+                                                    <li>Torres Villa</li>
+                                                    <li>Apartments</li>
+                                                    <li>Alex's Estate</li>
+                                                    <li>C16 Apartment</li>
+                                                    <li>NIP Estate</li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                <!-- Black Overlay -->
+                                <div class="absolute inset-0 bg-black opacity-50 z-10"></div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="slider-card">
-                                <img src="assets/images/royal family.jpg" alt="" class="bg">
-                                <div class="container">
-                                    <div class="content">
-                                        <div class="row justify-content-between">
-                                            <div class="col-lg-5">
-                                                <div class="info">
-                                                    <div class="num-cont">
-                                                        <!-- <span class="number"> 15 </span>
-                                                        <p class="fsz-18 text-uppercase"> minutes <br> walk </p> -->
-                                                    </div>
-                                                    <h2>Royal families and diplomats</h2>
+
+
+                        <!-- Slide 2 - Royal Families -->
+                        <div class="swiper-slide h-full">
+                            <div class="slider-card h-full  relative">
+                                <img src="assets/images/royal family.jpg" alt=""
+                                    class="bg absolute inset-0 w-full h-full object-cover">
+                                <div class="container h-full mx-auto px-4 z-50">
+                                    <div class="content h-full">
+                                        <div class="row h-full">
+                                            <div
+                                                class="col-12 h-full flex flex-col justify-end pb-[2rem] w-[80vw] mx-auto">
+                                                <div class="info flex items-end w-full h-full mb-[2rem]">
+                                                    <h2 class="pb-10 text-white font-normal text-[60px] leading-[70px] uppercase"
+                                                        style="font-weight: bold;">
+                                                        Royal families and <br> diplomats
+                                                    </h2>
                                                 </div>
+                                                <ul
+                                                    class="flex justify-content-between text-secondaryT text-[20px] w-[80%]">
+                                                    <li>Torres Villa</li>
+                                                    <li>Apartments</li>
+                                                    <li>Alex's Estate</li>
+                                                    <li>C16 Apartment</li>
+                                                    <li>NIP Estate</li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                <!-- Black Overlay -->
+                                <div class="absolute inset-0 bg-black opacity-50 z-10"></div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="slider-card">
+
+
+                        <!-- Slide 3 - Real estate magnates -->
+                        <div class="swiper-slide h-full">
+                            <div class="slider-card h-full relative">
                                 <img src="assets/images/Global real estate-2.jpg" alt=""
-                                    class="bg w-full h-full bg-cover"
-                                    style="object-position: center;object-fit: cover;">
-                                <div class="container">
-                                    <div class="content">
-                                        <div class="row justify-content-between">
-                                            <div class="col-lg-5">
-                                                <div class="info">
-                                                    <div class="num-cont">
-                                                        <!-- <span class="number"> 20 </span>
-                                                        <p class="fsz-18 text-uppercase"> minutes <br> walk </p> -->
-                                                    </div>
-                                                    <h2 class=""> Global real estate magnates </h2>
+                                    class="bg absolute inset-0 w-full h-full object-cover">
+                                <div class="container h-full mx-auto px-4 z-50">
+                                    <div class="content h-full">
+                                        <div class="row h-full">
+                                            <div
+                                                class="col-12 h-full flex flex-col justify-end pb-[2rem] w-[80vw] mx-auto">
+                                                <div class="info flex items-end w-full h-full mb-[2rem]">
+                                                    <h2 class="pb-10 text-white font-normal text-[60px] leading-[70px] uppercase"
+                                                        style="font-weight: bold;">
+                                                        Global real estate <br> magnates
+                                                    </h2>
                                                 </div>
+                                                <ul
+                                                    class="flex justify-content-between text-secondaryT text-[20px] w-[80%]">
+                                                    <li>Torres Villa</li>
+                                                    <li>Apartments</li>
+                                                    <li>Alex's Estate</li>
+                                                    <li>C16 Apartment</li>
+                                                    <li>NIP Estate</li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                <!-- Black Overlay -->
+                                <div class="absolute inset-0 bg-black opacity-50 z-10"></div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="slider-card">
-                                <img src="assets/images/tech ente.webp" alt="" class="bg">
-                                <div class="container">
-                                    <div class="content">
-                                        <div class="row justify-content-between">
-                                            <div class="col-lg-5">
-                                                <div class="info">
-                                                    <div class="num-cont">
-                                                        <!-- <span class="number"> 17 </span>
-                                                        <p class="fsz-18 text-uppercase"> minutes <br> by car </p> -->
-                                                    </div>
-                                                    <h2>Tech entrepreneurs and private equity
-                                                        founders</h2>
+
+
+                        <!-- Slide 4 - Tech entrepreneurs -->
+                        <div class="swiper-slide h-full relative">
+                            <div class="slider-card h-full">
+                                <img src="assets/images/tech ente.webp" alt=""
+                                    class="bg absolute inset-0 w-full h-full object-cover">
+                                <div class="container h-full mx-auto px-4 z-50">
+                                    <div class="content h-full">
+                                        <div class="row h-full">
+                                            <div
+                                                class="col-12 h-full flex flex-col justify-end pb-[2rem] w-[80vw] mx-auto">
+                                                <div class="info flex items-end w-full h-full mb-[2rem]">
+                                                    <h2 class="pb-10 text-white font-normal text-[60px] leading-[70px] uppercase"
+                                                        style="font-weight: bold;">
+                                                        Tech entrepreneurs and <br> private equity founders
+                                                    </h2>
                                                 </div>
+                                                <ul
+                                                    class="flex justify-content-between text-secondaryT text-[20px] w-[80%]">
+                                                    <li>Torres Villa</li>
+                                                    <li>Apartments</li>
+                                                    <li>Alex's Estate</li>
+                                                    <li>C16 Apartment</li>
+                                                    <li>NIP Estate</li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                <!-- Black Overlay -->
+                                <div class="absolute inset-0 bg-black opacity-50 z-10"></div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
-                            <div class="slider-card">
-                                <img src="assets/images/internationa lfamilies.webp" alt="" class="bg">
-                                <div class="container">
-                                    <div class="content">
-                                        <div class="row justify-content-between">
-                                            <div class="col-lg-5">
-                                                <div class="info">
-                                                    <div class="num-cont">
-                                                        <!-- <span class="number"> 17 </span>
-                                                        <p class="fsz-18 text-uppercase"> minutes <br> by car </p> -->
-                                                    </div>
-                                                    <h2>International families seeking Dubai
-                                                        residency</h2>
+
+
+                        <!-- Slide 5 - International families -->
+                        <div class="swiper-slide h-full">
+                            <div class="slider-card h-full relative">
+                                <img src="assets/images/internationa lfamilies.webp" alt=""
+                                    class="bg absolute inset-0 w-full h-full object-cover">
+                                <div class="container h-full mx-auto px-4 z-50">
+                                    <div class="content h-full">
+                                        <div class="row h-full">
+                                            <div
+                                                class="col-12 h-full flex flex-col justify-end pb-[2rem]  w-[80vw] mx-auto">
+                                                <div class="info  flex items-end w-full h-full mb-[2rem]">
+                                                    <h2 class="pb-10 text-white font-normal text-[60px] leading-[70px] uppercase"
+                                                        style="font-weight: bold;">
+                                                        International families <br> seeking Dubai residency
+                                                    </h2>
                                                 </div>
+                                                <ul
+                                                    class="flex justify-content-between text-secondaryT text-[20px] w-[80%]">
+                                                    <li>Torres Villa</li>
+                                                    <li>Apartments</li>
+                                                    <li>Alex's Estate</li>
+                                                    <li>C16 Apartment</li>
+                                                    <li>NIP Estate</li>
+                                                </ul>
                                             </div>
                                         </div>
                                     </div>
                                 </div>
+                                <!-- Black Overlay -->
+                                <div class="absolute inset-0 bg-black opacity-50 z-10"></div>
                             </div>
                         </div>
+
+
                     </div>
-                    <div class="arrows">
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
-                    </div>
+
+                    <!-- Navigation arrows -->
+                    <!-- <div class="arrows absolute right-10 top-[50%] z-10 flex flex-col gap-5">
+                        <div
+                            class="swiper-button-prev static w-[10px] h-[10px] rounded-full border border-brown1 transition-all duration-300 ease hover:bg-brown1 after:text-[30px] after:text-white hover:after:text-black">
+                        </div>
+                       <div
+                            class="swiper-button-prev static w-[10px] h-[10px] rounded-full border border-brown1 transition-all duration-300 ease hover:bg-brown1 after:text-[30px] after:text-white hover:after:text-black">
+                        </div>
+                        <div
+                            class="swiper-button-prev static w-[10px] h-[10px] rounded-full border border-brown1 transition-all duration-300 ease hover:bg-brown1 after:text-[30px] after:text-white hover:after:text-black">
+                        </div>
+                        <div
+                            class="swiper-button-prev static w-[10px] h-[10px] rounded-full border border-brown1 transition-all duration-300 ease hover:bg-brown1 after:text-[30px] after:text-white hover:after:text-black">
+                        </div>
+                    </div> -->
                 </div>
             </section>
-            <!--  End vip clients  -->
+            <!-- End vip clients -->
 
 
-            <!-- why choose us -->
-            <div class="wrapper py-10 bg-[#e5e7eb]">
-                <!-- Header Section -->
-                <div class="text-center">
-                    <span
-                        class="inline-block bg-[#283344] text-[#fff] text-xs font-semibold px-3 py-1 rounded-full mb-4 uppercase tracking-wide">
-                        Exclusive Living
-                    </span>
-                    <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-primaryT font-heading mb-5">
-                        Why Choose NIP?
-                    </h2>
+
+           <!-- why choose us -->
+<div class="wrapper py-10 bg-[#e5e7eb]">
+    <section class="py-16">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <!-- Header Section -->
+            <div class="text-center">
+                <span
+                    class="inline-block bg-[#283344] text-[#fff] text-xs font-semibold px-3 py-1 rounded-full mb-4 uppercase tracking-wide">
+                    Exclusive Living
+                </span>
+                <h2 class="text-3xl md:text-4xl lg:text-5xl font-bold text-primaryT font-heading mb-5">
+                    Why Choose NIP?
+                </h2>
+                <!-- Inserted heading and paragraph from the provided section -->
+                <h3 class="text-lg md:text-xl lg:text-2xl font-light text-gray-700 mb-2">
+                    Transforming Visions Into Iconic Real Estate Experiences
+                </h3>
+                <p class="text-base lg:text-lg text-gray-500 leading-relaxed max-w-3xl mx-auto">
+                    Discover how NIP redefines luxury real estate through unmatched expertise, design, and a client-first approach.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-0 mt-10">
+                <!-- Card 1 -->
+                <div class="p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold text-gray-900 leading-tight">
+                        Architecture &<br />Building
+                    </h3>
+                    <div class="my-4 relative">
+                        <img src="https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=400&q=80"
+                            alt="Architecture" class="rounded-lg w-full h-48 object-cover" />
+                    </div>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Planning, 3D Visualisation,<br />
+                        Landscape Design,<br />
+                        Structural Drawing, CGI,<br />
+                        Construction Supervision
+                    </p>
+                    <div class="mt-6">
+                        <button
+                            class="w-10 h-10 rounded-full border border-gray-400 bg-white text-gray-700 flex items-center justify-center hover:bg-gray-100 transition">
+                            <svg class="w-4 h-4 transform rotate-45" fill="none" stroke="currentColor"
+                                stroke-width="2" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </button>
+                    </div>
                 </div>
 
-                <section class="relative h-screen bg-black text-white overflow-hidden">
-                    <div class="absolute inset-0 bg-cover bg-center bg-no-repeat z-0"
-                        style="background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url('assets/images/about-sec-img.jpg');">
+                <!-- Card 2 -->
+                <div class="mt-[4rem] p-6 rounded-lg border-l border-gray-300">
+                    <h3 class="text-xl font-semibold text-gray-900 leading-tight">
+                        Interior<br />Design
+                    </h3>
+                    <div class="my-4 relative">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=400&q=80"
+                            alt="Interior Design" class="rounded-lg w-full h-48 object-cover" />
                     </div>
-                    <div class="relative z-20 h-full flex items-center justify-end px-8 lg:px-20">
-                        <div class="max-w-lg text-left">
-                            <h1 class="text-4xl lg:text-5xl xl:text-6xl font-light leading-tight mb-6 tracking-tight">
-                                Transforming Visions Into Iconic Real Estate Experiences
-                            </h1>
-                            <p class="text-base lg:text-lg text-gray-300 leading-relaxed">
-                                Discover how NIP redefines luxury real estate through unmatched expertise, design, and a
-                                client-first approach.
-                            </p>
-                        </div>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Furniture layout, Concept,<br />
+                        3D interior design, Custom<br />
+                        finishes, Lighting design
+                    </p>
+                    <div class="mt-6">
+                        <button
+                            class="w-10 h-10 rounded-full border border-gray-400 text-gray-700 flex items-center justify-center hover:bg-gray-100 bg-white transition">
+                            <svg class="w-4 h-4 transform rotate-45" fill="none" stroke="currentColor"
+                                stroke-width="2" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </button>
                     </div>
-                </section>
+                </div>
 
-                <!-- Services Section -->
-                <section class="relative -mt-24 mx-4 lg:mx-8 xl:mx-16 z-20">
-                    <div class="bg-white rounded-xl overflow-hidden">
-                        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-                            <!-- Exclusivity -->
-                            <div
-                                class="p-8 lg:p-10 text-center border-r border-gray-200 hover:bg-primaryT group transition-all duration-300 hover:-translate-y-1 hover:shadow-lg group">
-                                <div
-                                    class="w-16 h-16 mx-auto mb-6 bg-gray-100 rounded-lg flex items-center justify-center group-hover:bg-gray-200 transition-colors duration-300">
-                                    <svg class="w-8 h-8 text-gray-600" fill="none" stroke="currentColor"
-                                        viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M3 7v10a2 2 0 002 2h14a2 2 0 002-2V9a2 2 0 00-2-2H5a2 2 0 00-2-2z">
-                                        </path>
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M8 21l4-4 4 4"></path>
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M12 17l0-8"></path>
-                                    </svg>
-                                </div>
-                                <h3 class="group-hover:text-white text-xl font-semibold text-gray-900 mb-4">Exclusivity
-                                </h3>
-                                <p class="text-sm text-gray-600 leading-relaxed">
-                                    Access to Dubai's most coveted properties and experiences unavailable to the general
-                                    public.
-                                </p>
-                            </div>
-
-                            <!-- Expertise -->
-                            <div
-                                class="p-8 lg:p-10 text-center border-r border-gray-200 hover:bg-primaryT transition-all duration-300 hover:-translate-y-1 hover:shadow-lg group">
-                                <div
-                                    class="w-16 h-16 mx-auto mb-6 bg-gray-100 rounded-lg flex items-center justify-center group-hover:bg-gray-200 transition-colors duration-300">
-                                    <svg class="w-8 h-8 text-gray-600" fill="none" stroke="currentColor"
-                                        viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z">
-                                        </path>
-                                    </svg>
-                                </div>
-                                <h3 class="group-hover:text-white text-xl font-semibold text-gray-900 mb-4">Expertise
-                                </h3>
-                                <p class="text-sm text-gray-600 leading-relaxed">
-                                    Data-driven insights combined with deep market knowledge and strategic partnerships.
-                                </p>
-                            </div>
-
-                            <!-- Discretion -->
-                            <div
-                                class="p-8 lg:p-10 text-center border-r border-gray-200 hover:bg-primaryT transition-all duration-300 hover:-translate-y-1 hover:shadow-lg group">
-                                <div
-                                    class="w-16 h-16 mx-auto mb-6 bg-gray-100 rounded-lg flex items-center justify-center group-hover:bg-gray-200 transition-colors duration-300">
-                                    <svg class="w-8 h-8 text-gray-600" fill="none" stroke="currentColor"
-                                        viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M7 21a4 4 0 01-4-4V5a2 2 0 012-2h4a2 2 0 012 2v12a4 4 0 01-4 4zM21 5a2 2 0 00-2-2h-4a2 2 0 00-2 2v12a4 4 0 004 4h4a2 2 0 002-2V5z">
-                                        </path>
-                                    </svg>
-                                </div>
-                                <h3 class="group-hover:text-white text-xl font-semibold text-gray-900 mb-4">Discretion
-                                </h3>
-                                <p class="text-sm text-gray-600 leading-relaxed">
-                                    White-glove service with absolute privacy and confidentiality for all client
-                                    interactions.
-                                </p>
-                            </div>
-
-                            <!-- Design & Planning (fallback for 4th column) -->
-                            <div
-                                class="p-8 lg:p-10 text-center hover:bg-primaryT transition-all duration-300 hover:-translate-y-1 hover:shadow-lg group">
-                                <div
-                                    class="w-16 h-16 mx-auto mb-6 bg-gray-100 rounded-lg flex items-center justify-center group-hover:bg-gray-200 transition-colors duration-300">
-                                    <svg class="w-8 h-8 text-gray-600" fill="none" stroke="currentColor"
-                                        viewBox="0 0 24 24">
-                                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2"
-                                            d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z"></path>
-                                    </svg>
-                                </div>
-                                <h3 class="group-hover:text-white text-xl font-semibold text-gray-900 mb-4">Bespoke
-                                    Planning</h3>
-                                <p class="text-sm text-gray-600 leading-relaxed">
-                                    Tailored design and architectural excellence that aligns with your lifestyle vision.
-                                </p>
-                            </div>
-                        </div>
+                <!-- Card 3 -->
+                <div class="p-6 rounded-lg border-l border-gray-300">
+                    <h3 class="text-xl font-semibold text-gray-900 leading-tight">
+                        Engineering<br />Solutions
+                    </h3>
+                    <div class="my-4 relative">
+                        <img src="assets/images/Arabian Ranches.jpg"
+                            alt="Engineering" class="rounded-lg w-full h-48 object-cover" />
                     </div>
-                </section>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        MEP Design, HVAC, ELV,<br />
+                        Plumbing, Electrical, Civil<br />
+                        Structural Systems
+                    </p>
+                    <div class="mt-6">
+                        <button
+                            class="w-10 h-10 rounded-full border border-gray-400 bg-white text-gray-700 flex items-center justify-center hover:bg-gray-100 transition">
+                            <svg class="w-4 h-4 transform rotate-45" fill="none" stroke="currentColor"
+                                stroke-width="2" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="mt-[4rem] p-6 rounded-lg border-l border-gray-300">
+                    <h3 class="text-xl font-semibold text-gray-900 leading-tight">
+                        Urban<br />Planning
+                    </h3>
+                    <div class="my-4 relative">
+                        <img src="assets/images/Business Bay.jpg"
+                            alt="Urban Planning" class="rounded-lg w-full h-48 object-cover" />
+                    </div>
+                    <p class="text-gray-600 text-sm leading-relaxed">
+                        Master plans, Zoning, Site<br />
+                        feasibility, Infrastructure<br />
+                        Planning & Traffic Study
+                    </p>
+                    <div class="mt-6">
+                        <button
+                            class="w-10 h-10 rounded-full border border-gray-400 bg-white text-gray-700 flex items-center justify-center hover:bg-gray-100 transition">
+                            <svg class="w-4 h-4 transform rotate-45" fill="none" stroke="currentColor"
+                                stroke-width="2" viewBox="0 0 24 24">
+                                <path stroke-linecap="round" stroke-linejoin="round"
+                                    d="M5 12h14M12 5l7 7-7 7" />
+                            </svg>
+                        </button>
+                    </div>
+                </div>
             </div>
+        </div>
+    </section>
+</div>
+
 
 
         </main>
         <!--End-Contents-->
 
 
-        <!-- Golden visa  -->
+
+
+<!-- Golden visa -->
+<section class="bg-[#f7f7f5] py-20 px-4 relative">
+      <!-- Heading -->
+            <div class="text-center mb-8 relative z-20 px-4">
+                <p class="inline-block bg-[#283344] text-[#fff] text-xs font-semibold px-3 py-1 rounded-full mb-4 uppercase tracking-wide">Golden Visa Program</p>
+                <h2 class="text-4xl font-bold text-primaryT font-subheading mb-4">Secure Your 10-Year UAE Residency</h2>
+                <p class="max-w-3xl mx-auto text-secondaryT text-base leading-relaxed font-subheading">
+                    Transform your property investment into long-term residency with our Golden Visa advisory service.
+                    We
+                    guide you through qualifying investments starting from AED 2 million, ensuring you and your family
+                    gain:
+                </p>
+            </div>
+  <div class="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-2 gap-10 items-center">
+    <!-- Left: Accordion -->
+    <div>
+
+      <div class="space-y-4 relative">
+        <!-- Step 1 -->
+        <div class="bg-white shadow-sm rounded-md border overflow-hidden">
+          <button class="accordion-toggle w-full text-left p-5 flex justify-between items-center font-semibold" data-step="1">
+            <span>1 / Survey</span>
+            <span class="text-2xl">+</span>
+          </button>
+          <div class="accordion-content hidden absolute left-0 right-0 bg-white px-5 pb-5 border-t pt-2">
+            <p class="text-gray-600">We conduct a thorough analysis of your property investment goals to determine eligibility for the Golden Visa program, ensuring your investment meets the AED 2 million minimum requirement.</p>
+          </div>
+        </div>
+        
+        <!-- Step 2 -->
+        <div class="bg-white shadow-sm rounded-md border overflow-hidden">
+          <button class="accordion-toggle w-full text-left p-5 flex justify-between items-center font-semibold" data-step="2">
+            <span>2 / Design</span>
+            <span class="text-2xl">+</span>
+          </button>
+          <div class="accordion-content hidden absolute left-0 right-0 bg-white px-5 pb-5 border-t pt-2">
+            <p class="text-gray-600">Our experts create a customized investment plan that qualifies for the 10-year residency visa, including property selection and documentation strategy.</p>
+          </div>
+        </div>
+        
+        <!-- Step 3 -->
+        <div class="bg-white shadow-sm rounded-md border overflow-hidden">
+          <button class="accordion-toggle w-full text-left p-5 flex justify-between items-center font-semibold" data-step="3">
+            <span>3 / Implement</span>
+            <span class="text-2xl">+</span>
+          </button>
+          <div class="accordion-content hidden absolute left-0 right-0 bg-white px-5 pb-5 border-t pt-2">
+            <p class="text-gray-600">We handle all aspects of the application process, from property purchase to visa submission, ensuring compliance with UAE Golden Visa regulations.</p>
+          </div>
+        </div>
+        
+        <!-- Step 4 -->
+        <div class="bg-white shadow-sm rounded-md border overflow-hidden">
+          <button class="accordion-toggle w-full text-left p-5 flex justify-between items-center font-semibold" data-step="4">
+            <span>4 / Handover</span>
+            <span class="text-2xl">+</span>
+          </button>
+          <div class="accordion-content hidden absolute left-0 right-0 bg-white px-5 pb-5 border-t pt-2">
+            <p class="text-gray-600">Final delivery of your Golden Visa and property ownership documents, with ongoing support for renewals and family member applications.</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- CTA -->
+      <div class="mt-8">
+        <a href="#contact"
+          class="inline-flex items-center gap-2 px-5 py-2 border border-gray-600 text-sm text-gray-700 rounded-full hover:bg-gray-100 transition">
+          Get a Free Quote →
+        </a>
+      </div>
+    </div>
+
+    <!-- Right: Image Bubbles - Fixed Positioning -->
+  <div class="relative h-[650px] lg:h-[750px] w-full pt-12 overflow-visible">
+  <!-- Design Bubble -->
+  <div class="absolute top-0 right-[5rem] w-[15rem] h-[15rem] lg:w-[20rem] lg:h-[20rem] rounded-full overflow-hidden shadow-lg border-2 border-white transform hover:scale-105 transition-transform duration-300 z-10">
+  <span class="absolute bottom-6 left-1/2 transform -translate-x-1/2 bg-primaryT text-white text-lg px-4 py-1 rounded-full shadow-md z-50">
+  Design
+</span>
+
+
+    <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=400&q=80"
+      class="w-full h-full object-cover" alt="Design" />
+  </div>
+
+  <!-- Survey Bubble -->
+  <div class="absolute bottom-[25%] left-[5%] w-36 h-36 lg:w-50 lg:h-50 rounded-full overflow-hidden shadow-lg border-2 border-white transform hover:scale-105 transition-transform duration-300">
+    <span class="absolute bottom-6 left-1/2 transform -translate-x-1/2 bg-black text-white text-xs font-bold px-3 py-1 rounded-full shadow-md z-50">Survey</span>
+    <img src="assets/images/Business Bay.jpg"
+      class="w-full h-full object-cover" alt="Survey" />
+  </div>
+
+  <!-- Implement Bubble -->
+  <div class="absolute bottom-0 right-[30%] w-36 h-36 lg:w-40 lg:h-40 rounded-full overflow-hidden shadow-lg border-2 border-white transform hover:scale-105 transition-transform duration-300">
+    <span class="absolute bottom-6 left-1/2 transform -translate-x-1/2 bg-black text-white text-xs font-bold px-3 py-1 rounded-full shadow-md z-50">Implement</span>
+    <img src="https://images.unsplash.com/photo-1570129477492-45c003edd2be?auto=format&fit=crop&w=400&q=80"
+      class="w-full h-full object-cover" alt="Implement" />
+  </div>
+
+  <!-- Handover Bubble -->
+  <div class="absolute top-[40%] right-0 w-24 h-24 lg:w-28 lg:h-28 rounded-full overflow-hidden shadow-lg border-2 border-white transform hover:scale-105 transition-transform duration-300">
+    <span class="absolute -top-6 left-1/2 transform -translate-x-1/2 bg-black text-white text-xs font-bold px-3 py-1 rounded-full shadow-md z-50">Handover</span>
+    <img src="assets/images/Arabian Ranches.jpg"
+      class="w-full h-full object-cover" alt="Handover" />
+  </div>
+</div>
+
+
+  </div>
+</section>
+
+
+         <!-- *************** -->
         <section id="goldenvisa" class="scroll-mt-24 py-16 relative"
             style="background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(assets/images/section5-img.jpg); background-position: right; background-repeat: no-repeat; background-size: cover;">
             <!-- Heading -->
@@ -1721,6 +1929,31 @@
             });
         });
     </script>
+    <!-- accordian  -->
+    <script>
+document.addEventListener('DOMContentLoaded', function() {
+  const accordionToggles = document.querySelectorAll('.accordion-toggle');
+  
+  accordionToggles.forEach(toggle => {
+    toggle.addEventListener('click', function() {
+      const content = this.nextElementSibling;
+      const plusMinus = this.querySelector('span:last-child');
+      
+      // Close all accordions first
+      document.querySelectorAll('.accordion-content').forEach(item => {
+        if (item !== content) {
+          item.classList.add('hidden');
+          item.previousElementSibling.querySelector('span:last-child').textContent = '+';
+        }
+      });
+      
+      // Toggle current accordion
+      content.classList.toggle('hidden');
+      plusMinus.textContent = content.classList.contains('hidden') ? '+' : '-';
+    });
+  });
+});
+</script>
     <script src="script.js"></script>
     <!--  Start to top button  -->
     <a href="#" class="to_top">

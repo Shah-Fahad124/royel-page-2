@@ -4410,7 +4410,7 @@ home 5 style
 .tc-header-style5 {
   position: relative;
   padding: 150px 0 430px;
-  background-image: url(../assets/img/home5/header.jpg);
+  /* background-image: url(../assets/images/hero-sec-img.jpg); */
   background-size: cover;
   min-height: 100vh;
   overflow: hidden;
@@ -4865,135 +4865,7 @@ home 5 style
     /* margin-top: 50px; */
   }
 }
-/* --------------- location style5 --------------- */
-.tc-location-style5 {
-  position: relative;
-}
-.tc-location-style5 .location-slider {
-  position: relative;
-  overflow: hidden;
-}
-.tc-location-style5 .location-slider .swiper-slide.swiper-slide-active .slider-card {
-  opacity: 1;
-}
-.tc-location-style5 .location-slider .arrows {
-  position: absolute;
-  right: calc((100vw - 1320px) / 2 );
-  bottom: 140px;
-  z-index: 10;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: end;
-      -ms-flex-pack: end;
-          justify-content: end;
-}
-.tc-location-style5 .location-slider .arrows .swiper-button-next,
-.tc-location-style5 .location-slider .arrows .swiper-button-prev {
-  position: static;
-  -webkit-margin-start: 10px;
-          margin-inline-start: 10px;
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  border: 1px solid var(--color-brown1);
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-.tc-location-style5 .location-slider .arrows .swiper-button-next::after,
-.tc-location-style5 .location-slider .arrows .swiper-button-prev::after {
-  font-size: 30px;
-  color: #fff;
-  -webkit-transition: all 0.3s ease;
-  transition: all 0.3s ease;
-}
-.tc-location-style5 .location-slider .arrows .swiper-button-next:hover,
-.tc-location-style5 .location-slider .arrows .swiper-button-prev:hover {
-  background-color: var(--color-brown1);
-}
-.tc-location-style5 .location-slider .arrows .swiper-button-next:hover::after,
-.tc-location-style5 .location-slider .arrows .swiper-button-prev:hover::after {
-  color: #000;
-}
-.tc-location-style5 .location-slider .slider-card {
-  position: relative;
-  height: 900px;
-  min-height: -webkit-max-content;
-  min-height: -moz-max-content;
-  min-height: max-content;
-  padding: 140px 0;
-  opacity: 0;
-  -webkit-transition: all 0.5s linear;
-  transition: all 0.5s linear;
-}
-.tc-location-style5 .location-slider .slider-card::after {
-  position: absolute;
-  content: "";
-  left: 0;
-  top: 0;
-  height: 100%;
-  width: 100%;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 0, 0, 0.35)), to(rgba(0, 0, 0, 0.35)));
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.35), rgba(0, 0, 0, 0.35));
-}
-.tc-location-style5 .location-slider .slider-card .bg {
-  position: absolute;
-  content: "";
-  left: 0;
-  top: 0;
-  width: 100%;
-  height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-}
-.tc-location-style5 .location-slider .slider-card .content {
-  position: relative;
-  z-index: 10;
-}
-.tc-location-style5 .location-slider .slider-card .content .info {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  height: 620px;
-  min-height: -webkit-max-content;
-  min-height: -moz-max-content;
-  min-height: max-content;
-}
-.tc-location-style5 .location-slider .slider-card .content .info .number {
-  display: block;
-  font-size: 300px;
-  letter-spacing: -0.01em;
-  text-transform: uppercase;
-  font-weight: 400;
-  line-height: 250px;
-  margin-bottom: 50px;
-  font-family: "Instrument Serif", serif;
-}
-.tc-location-style5 .location-slider .slider-card .content .info h2 {
-  font-size: 40px;
-  line-height: 60px;
-  text-transform: uppercase;
-  margin-top: 80px;
-  font-weight: 400;
-}
 
-@media screen and (max-width: 991px) {
-  .tc-location-style5 .location-slider .slider-card .content .info .number {
-    font-size: 150px;
-    line-height: 1;
-  }
-  .tc-location-style5 .location-slider .slider-card .content .info h2 {
-    font-size: 40px;
-    line-height: 1.2;
-  }
-}
 /* --------------- apartments style5 --------------- */
 .tc-apartments-style5 {
   position: relative;
@@ -7483,7 +7355,7 @@ home 8 style
 .home-style8 .section .container {
   position: relative;
   z-index: 10;
-  height: 100%;
+  max-height: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
